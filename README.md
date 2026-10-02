@@ -4,11 +4,13 @@ A beginner-friendly, interactive restaurant operations dashboard built directly 
 
 Designed for cafe and restaurant owners to monitor busy hours, optimize kitchen shifts, evaluate menu performance across categories (*Fries in a Jar, Pizzas, Sliders & Burgers, Wraps, Pasta, Momos, Garlic Bread, Fried Chicken, Waffles, and Double Xero Shakes*), track sales over time, and analyze customer spending patterns.
 
+🌐 **Live Demo Online:** [https://ashishh9090.github.io/restaurant-operations-dashboard/](https://ashishh9090.github.io/restaurant-operations-dashboard/)
+
 ---
 
 ### 🎥 Project Walkthrough Demo & Preview
 
-> **Demo Video (17s):** [`assets/dashboard_demo.webm`](file:///Users/apple/.gemini/antigravity-ide/scratch/restaurant-operations-dashboard/assets/dashboard_demo.webm) *(High-definition functional walkthrough demonstrating real-time date filters, category selections, heatmap tooltips, metrics toggles, search, pagination, light/dark themes, and data audit modal)*.
+> **Demo Video (17s):** [`assets/dashboard_demo.webm`](assets/dashboard_demo.webm) *(High-definition functional walkthrough demonstrating real-time date filters, category selections, heatmap tooltips, metrics toggles, search, pagination, light/dark themes, and data audit modal)*.
 
 ![Full Dashboard Preview](assets/full_dashboard_preview.png)
 
