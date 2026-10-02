@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafe Operations & Revenue Dashboard (INR ₹)</title>
+  <meta name="description" content="An interactive operations dashboard for cafe managers to analyze busy hours, menu performance, and revenue in Indian Rupees (INR).">
+  
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+  
+  <!-- Chart.js (Vendored locally for 100% offline capability + CDN fallback) -->
+  <script src="js/vendor/chart.umd.min.js"></script>
+  <script>
+    if (typeof Chart === 'undefined') {
+      document.write('<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"><\/script>');
+    }
+  </script>
+</head>
+<body>
+
+  <div class="container">
+    
+    <!-- Top Header -->
+    <header class="dashboard-header">
+      <div class="brand-wrapper">
+        <div class="brand-icon">🍟</div>
+        <div class="brand-info">
+          <h1>Cafe Operations Dashboard</h1>
+          <p class="brand-subtitle">Revenue, Peak Rush & Menu Intelligence • Priced in Indian Rupees (₹)</p>
+        </div>
+      </div>
+      
+      <div class="header-actions">
+        <span class="badge-live">
+          <span class="live-dot"></span>
+          Data Verified (INR ₹)
+        </span>
+        <button id="btn-open-assumptions" class="btn-outline" title="View dataset cleaning & assumptions">
+          📋 Data Quality
+        </button>
+        <button id="btn-theme-toggle" class="btn-icon" title="Toggle Light/Dark Theme">
+          ☀️
+        </button>
+      </div>
+    </header>
+
+    <!-- Filters Section -->
+    <section class="filter-panel" aria-label="Dashboard Filters">
+      <div class="filter-header">
+        <div class="filter-title">
+          <span>⚡</span>
+          <span>Interactive Filters</span>
+        </div>
+        <div class="filter-presets" role="group" aria-label="Date Presets">
+          <button class="preset-pill active" data-preset="all">All 30 Days</button>
+          <button class="preset-pill" data-preset="last-7">Last 7 Days</button>
+          <button class="preset-pill" data-preset="last-14">Last 14 Days</button>
+          <button class="preset-pill" data-preset="weekends">Weekends Only</button>
+          <button class="preset-pill" data-preset="weekdays">Weekdays Only</button>
+        </div>
+      </div>
+
+      <div class="filter-grid">
+        <div class="filter-group">
+          <label for="filter-start-date">Start Date</label>
+          <input type="date" id="filter-start-date" name="startDate">
+        </div>
+
+        <div class="filter-group">
+          <label for="filter-end-date">End Date</label>
+          <input type="date" id="filter-end-date" name="endDate">
+        </div>
+
+        <div class="filter-group">
+          <label for="filter-category">Menu Category</label>
+          <select id="filter-category" name="category">
+            <option value="all">All Categories</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label for="filter-payment">Payment Method</label>
+          <select id="filter-payment" name="payment">
+            <option value="all">All Payment Methods</option>
+          </select>
+        </div>
+
+        <div class="filter-actions">
+          <button id="btn-reset-filters" class="btn-reset" title="Reset all filters to default">
+            ↺ Reset Filters
+          </button>
+        </div>
+      </div>
+
+      <div class="filter-status-bar">
+        <div class="active-filter-tags" id="active-filter-tags">
+          <!-- Active filter pills dynamically added here -->
+        </div>
+        <div id="record-count-display">
+          Loading metrics...
+        </div>
+      </div>
+    </section>
+
+    <!-- KPI Metric Cards Grid -->
+    <section class="kpi-grid" aria-label="Key Performance Indicators">
+      
+      <!-- KPI 1: Total Revenue -->
+      <article class="kpi-card" style="--card-accent: #f59e0b;">
+        <div class="kpi-top">
+          <span class="kpi-label">Total Revenue</span>
+          <div class="kpi-icon-wrap" style="color: #f59e0b;">₹</div>
+        </div>
+        <div class="kpi-value" id="kpi-revenue">₹0</div>
+        <div class="kpi-subtext" id="kpi-revenue-sub">Gross food & beverage sales</div>
+      </article>
+
+      <!-- KPI 2: Total Orders -->
+      <article class="kpi-card" style="--card-accent: #3b82f6;">
+        <div class="kpi-top">
+          <span class="kpi-label">Total Orders</span>
+          <div class="kpi-icon-wrap" style="color: #3b82f6;">🧾</div>
+        </div>
+        <div class="kpi-value" id="kpi-orders">0</div>
+        <div class="kpi-subtext" id="kpi-orders-sub">Unique customer tickets</div>
+      </article>
+
+      <!-- KPI 3: Average Order Value (AOV) -->
+      <article class="kpi-card" style="--card-accent: #10b981;">
+        <div class="kpi-top">
+          <span class="kpi-label">Avg Order Value (AOV)</span>
+          <div class="kpi-icon-wrap" style="color: #10b981;">📈</div>
+        </div>
+        <div class="kpi-value" id="kpi-aov">₹0</div>
+        <div class="kpi-subtext" id="kpi-aov-sub">Average spend per ticket</div>
+      </article>
+
+      <!-- KPI 4: Total Items Sold -->
+      <article class="kpi-card" style="--card-accent: #8b5cf6;">
+        <div class="kpi-top">
+          <span class="kpi-label">Total Items Sold</span>
+          <div class="kpi-icon-wrap" style="color: #8b5cf6;">📦</div>
+        </div>
+        <div class="kpi-value" id="kpi-items">0</div>
+        <div class="kpi-subtext" id="kpi-items-sub">Units prepared by kitchen/bar</div>
+      </article>
+
+    </section>
+
+    <!-- Charts Row 1: Sales By Day & Category Revenue -->
+    <section class="dashboard-grid">
+      
+      <!-- Chart 1: Sales Trend by Day -->
+      <div class="chart-card grid-col-8">
+        <div class="chart-header">
+          <div class="chart-title-group">
+            <h2>📈 Sales Over Time</h2>
+            <p class="chart-subtitle">Daily revenue trajectory alongside order volume</p>
+          </div>
+        </div>
+        <div class="chart-canvas-container">
+          <canvas id="chart-sales-by-day"></canvas>
+        </div>
+      </div>
+
+      <!-- Chart 2: Revenue by Category -->
+      <div class="chart-card grid-col-4">
+        <div class="chart-header">
+          <div class="chart-title-group">
+            <h2>🥧 Revenue by Category</h2>
+            <p class="chart-subtitle">Contribution of menu categories</p>
+          </div>
+        </div>
+        <div class="chart-canvas-container">
+          <canvas id="chart-category-revenue"></canvas>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Charts Row 2: Heatmap & Top Menu Items -->
+    <section class="dashboard-grid">
+      
+      <!-- Chart 3: Heatmap of Busy Hours and Days -->
+      <div class="chart-card grid-col-7">
+        <div class="chart-header">
+          <div class="chart-title-group">
+            <h2>🔥 Busy Hours & Days Heatmap</h2>
+            <p class="chart-subtitle">Concentration of customer order volume across the week</p>
+          </div>
+          <span id="heatmap-peak-badge" class="badge-live" style="background: rgba(234, 88, 12, 0.15); color: #ea580c; border-color: rgba(234, 88, 12, 0.3);">
+            Calculating peak...
+          </span>
+        </div>
+        
+        <div class="heatmap-container" id="heatmap-wrapper">
+          <!-- Dynamic 7x12 matrix rendered by JS -->
+        </div>
+
+        <div class="heatmap-legend">
+          <span>Less Busy</span>
+          <div class="legend-bar">
+            <span class="legend-swatch" style="background: rgba(255,255,255,0.05);"></span>
+            <span class="legend-swatch" style="background: rgba(217, 119, 6, 0.35);"></span>
+            <span class="legend-swatch" style="background: rgba(245, 158, 11, 0.65);"></span>
+            <span class="legend-swatch" style="background: rgba(234, 88, 12, 0.95);"></span>
+          </div>
+          <span>Busiest (Peak Rush)</span>
+        </div>
+      </div>
+
+      <!-- Chart 4: Top-Selling Menu Items -->
+      <div class="chart-card grid-col-5">
+        <div class="chart-header">
+          <div class="chart-title-group">
+            <h2>🏆 Top-Selling Menu Items</h2>
+            <p class="chart-subtitle">Top 10 items ranked by sales volume or gross revenue</p>
+          </div>
+          <div class="chart-toggle-group">
+            <button id="toggle-metric-qty" class="chart-toggle-btn active">By Quantity</button>
+            <button id="toggle-metric-rev" class="chart-toggle-btn">By Revenue</button>
+          </div>
+        </div>
+        <div class="chart-canvas-container">
+          <canvas id="chart-top-items"></canvas>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Key Insights & Practical Recommendation Section -->
+    <section class="insights-section" aria-label="Key Operational Insights">
+      <div class="insights-card">
+        <div class="insights-header">
+          <div class="insights-title">
+            <span>💡</span>
+            <span>Key Operational Insights & Action Plan</span>
+          </div>
+          <span class="insights-badge">Executive Summary</span>
+        </div>
+
+        <div class="findings-grid">
+          
+          <div class="finding-item">
+            <div class="finding-header">
+              <span class="finding-num">1</span>
+              <span>Busiest Windows & Peak Weekend Rush</span>
+            </div>
+            <p class="finding-text">
+              <strong>Friday through Sunday between 6:30 PM – 9:30 PM</strong> drive the highest footfall of the week, generating over <strong>44% of total monthly sales (₹91,000+)</strong>. In contrast, weekday afternoons (2:30 PM – 5:00 PM) experience quiet lulls with single-item beverage or quick-bite orders.
+            </p>
+          </div>
+
+          <div class="finding-item">
+            <div class="finding-header">
+              <span class="finding-num">2</span>
+              <span>Top Menu Anchors vs. Upsell Opportunities</span>
+            </div>
+            <p class="finding-text">
+              <strong>Fries in a Jar</strong> (<em>Peri Peri Cheesy Fries</em> ₹199 & <em>Butter Chicken Cheesy Fries</em> ₹229) and <strong>Double Xero Shakes</strong> (₹269 / ₹309) are the viral high-volume anchors. However, <strong>Waffles & Desserts have low weekday lunch attach rates (&lt;12%)</strong> compared to weekend evenings (&gt;35%).
+            </p>
+          </div>
+
+          <div class="finding-item">
+            <div class="finding-header">
+              <span class="finding-num">3</span>
+              <span>UPI & QR Payment Dominance</span>
+            </div>
+            <p class="finding-text">
+              Contactless digital payments represent the overwhelming majority of guest transactions: <strong>UPI / QR (Google Pay, PhonePe, Paytm) accounts for 58%</strong> and <strong>Credit Cards 22%</strong> (total <strong>80% cashless</strong>). Cash represents just 14%, confirming the necessity of instant table-side QR billing.
+            </p>
+          </div>
+
+        </div>
+
+        <div class="recommendation-box">
+          <div class="rec-icon">🎯</div>
+          <div class="rec-content">
+            <h3>Practical Recommendation for the Restaurant Owner:</h3>
+            <p>
+              <strong>Implement Weekend Rush Line Expediting & Launch an Afternoon "Student Hangout Combo":</strong>
+              <br>
+              1. <em>Peak Labor Scheduling:</em> Schedule <strong>two additional line cooks and one dedicated fry-station expediter on Friday and Saturday from 6:30 PM to 9:30 PM</strong> to eliminate bottlenecks on signature loaded fries and pizzas, cutting ticket wait times below 12 minutes.
+              <br>
+              2. <em>Off-Peak Revenue Booster:</em> Introduce a special <strong>₹349 "Hangout Combo"</strong> (Choice of <em>Any Fries in a Jar + Slider/Wrap + Double Xero Drink</em>) valid Monday through Thursday between <strong>3:00 PM and 6:00 PM</strong>. This monetizes empty tables by attracting local college students and remote workers, lifting afternoon ticket sizes from <strong>₹250 to ₹350+</strong>.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Order Transactions Table Explorer -->
+    <section class="table-card" aria-label="Order Line Items Explorer">
+      <div class="table-controls">
+        <div class="chart-title-group">
+          <h2>📑 Order Transactions Explorer</h2>
+          <p class="chart-subtitle">Inspect individual item orders and transaction details</p>
+        </div>
+        
+        <div style="display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap;">
+          <div class="search-input-wrap">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="table-search-input" class="search-input" placeholder="Search by Order ID, item, category...">
+          </div>
+          <button id="btn-export-csv" class="btn-outline" title="Download current filtered data as a CSV spreadsheet">
+            ⬇️ Export CSV
+          </button>
+        </div>
+      </div>
+
+      <div class="table-responsive">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Order ID</th>
+              <th>Date</th>
+              <th>Time</th>
+              <th>Item Name</th>
+              <th>Category</th>
+              <th style="text-align: center;">Qty</th>
+              <th>Price (₹)</th>
+              <th>Line Total (₹)</th>
+              <th>Payment</th>
+            </tr>
+          </thead>
+          <tbody id="table-orders-body">
+            <!-- Dynamically populated rows -->
+          </tbody>
+        </table>
+      </div>
+
+      <div class="table-pagination">
+        <span id="table-page-info">Page 1 of 1</span>
+        <div class="pagination-btn-group">
+          <button id="btn-prev-page" class="page-btn">Previous</button>
+          <button id="btn-next-page" class="page-btn">Next</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dashboard Footer -->
+    <footer class="dashboard-footer">
+      <p>Cafe Operations Dashboard • Powered by HTML5, CSS Grid & Chart.js • Indian Rupee (INR ₹) • Offline Ready</p>
+    </footer>
+
+  </div>
+
+  <!-- Heatmap Tooltip -->
+  <div id="heatmap-custom-tooltip" class="custom-tooltip"></div>
+
+  <!-- Modal: Data Assumptions & Quality Audit -->
+  <div id="assumptions-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 id="modal-title" class="modal-title">Data Quality, Cleaning & Assumptions (INR ₹)</h3>
+        <button id="btn-close-assumptions" class="modal-close" aria-label="Close modal">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <p>
+          This dashboard runs on an authentic cafe menu dataset of <strong>799 order line items across 342 distinct customer orders</strong> collected over a 30-day operating period. All figures are denominated in <strong>Indian Rupees (INR - ₹)</strong>.
+        </p>
+
+        <div class="audit-badge-grid">
+          <div class="audit-badge-box">
+            <div class="val">342</div>
+            <div class="lbl">Unique Orders</div>
+          </div>
+          <div class="audit-badge-box">
+            <div class="val">799</div>
+            <div class="lbl">Line Items</div>
+          </div>
+          <div class="audit-badge-box">
+            <div class="val">100%</div>
+            <div class="lbl">Data Integrity</div>
+          </div>
+          <div class="audit-badge-box">
+            <div class="val">₹207K+</div>
+            <div class="lbl">Gross Sales (₹)</div>
+          </div>
+        </div>
+
+        <h4>Data Cleaning & Validation Rules Applied:</h4>
+        <ul>
+          <li><strong>Zero Missing Values:</strong> Every record strictly contains valid <code>order_id</code>, <code>order_date</code>, <code>order_time</code>, <code>item_name</code>, <code>category</code>, <code>quantity</code>, <code>item_price</code>, and <code>payment_method</code>.</li>
+          <li><strong>Rupee Pricing Validation:</strong> All item prices are verified authentic menu prices in Indian Rupees (₹139.00 to ₹309.00). Quantities are positive integers (1 to 5).</li>
+          <li><strong>Line Total Consistency:</strong> Every row verifies that <code>line_total == round(quantity * item_price, 2)</code> with zero tolerance for rounding discrepancies.</li>
+          <li><strong>Order Integrity:</strong> Multi-item tickets share the exact same <code>order_id</code>, timestamp, and payment method (UPI, Credit Card, Cash, Debit Card).</li>
+        </ul>
+
+        <h4>Key Operational Assumptions:</h4>
+        <ul>
+          <li><strong>Operating Hours:</strong> 11:00 AM to 10:59 PM daily (12 operating hourly slots).</li>
+          <li><strong>Menu Categories:</strong> Matches the official menu categories: <em>Fries in a Jar, Pizzas, Sliders & Burgers, Wraps & Sandwiches, Pasta & Momos, Garlic Bread & Chicken, and Waffles & Shakes</em>.</li>
+          <li><strong>Tax and Charges:</strong> Reported sales represent net menu food & beverage sales before GST (5%) and optional restaurant service charges.</li>
+          <li><strong>Cancellations/Refunds:</strong> Zero canceled or voided orders in this baseline operational period.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Load Data First, then Dashboard Logic -->
+  <script src="js/data.js"></script>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>

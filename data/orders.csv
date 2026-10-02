@@ -1,0 +1,800 @@
+order_id,order_date,order_time,day_of_week,hour,item_name,category,quantity,item_price,line_total,payment_method
+ORD-1001,2026-09-01,19:01,Tuesday,19,Cheesy Margherita Pizza,Pizzas,1,219.0,219.0,Credit Card
+ORD-1001,2026-09-01,19:01,Tuesday,19,Classic Salted Fries,Fries in a Jar,1,149.0,149.0,Credit Card
+ORD-1002,2026-09-01,19:02,Tuesday,19,Chicken Tikka Sandwich,Wraps & Sandwiches,1,209.0,209.0,UPI
+ORD-1002,2026-09-01,19:02,Tuesday,19,Peri Peri Cheesy Fries,Fries in a Jar,1,199.0,199.0,UPI
+ORD-1003,2026-09-01,19:14,Tuesday,19,Double Xero 2-in-1 Classic Shakes,Waffles & Shakes,1,269.0,269.0,UPI
+ORD-1003,2026-09-01,19:14,Tuesday,19,Hot & Spicy Chicken Wings (4 Pcs),Garlic Bread & Chicken,1,189.0,189.0,UPI
+ORD-1004,2026-09-01,15:13,Tuesday,15,Butter Chicken Cheesy Fries,Fries in a Jar,1,229.0,229.0,Debit Card
+ORD-1005,2026-09-01,20:38,Tuesday,20,Chicken Seekh Wrap,Wraps & Sandwiches,1,219.0,219.0,UPI
+ORD-1006,2026-09-01,21:05,Tuesday,21,Mac & Cheese Classic,Pasta & Momos,1,249.0,249.0,UPI
+ORD-1006,2026-09-01,21:05,Tuesday,21,Pizza Pockets (4 Pcs),Garlic Bread & Chicken,1,149.0,149.0,UPI
+ORD-1006,2026-09-01,21:05,Tuesday,21,Arabiata Spicy Pasta,Pasta & Momos,1,249.0,249.0,UPI
+ORD-1006,2026-09-01,21:05,Tuesday,21,Fresh Vegetable Momos (8 Pcs),Pasta & Momos,1,199.0,199.0,UPI
+ORD-1007,2026-09-01,14:06,Tuesday,14,Crispy Chicken Strips (6 Pcs),Garlic Bread & Chicken,1,139.0,139.0,UPI
+ORD-1007,2026-09-01,14:06,Tuesday,14,Butter Chicken Pizza,Pizzas,1,299.0,299.0,UPI
+ORD-1008,2026-09-02,19:43,Wednesday,19,Butter Chicken Pizza,Pizzas,2,299.0,598.0,Credit Card
+ORD-1008,2026-09-02,19:43,Wednesday,19,Cheese Garlic Bread (4 Pcs),Garlic Bread & Chicken,3,159.0,477.0,Credit Card
+ORD-1009,2026-09-02,19:35,Wednesday,19,Hot & Spicy Chicken Wings (4 Pcs),Garlic Bread & Chicken,1,189.0,189.0,UPI
+ORD-1009,2026-09-02,19:35,Wednesday,19,Chicken & Cheese Fries,Fries in a Jar,1,219.0,219.0,UPI
+ORD-1010,2026-09-02,17:04,Wednesday,17,Double Xero 2-in-1 Classic Shakes,Waffles & Shakes,2,269.0,538.0,UPI
+ORD-1010,2026-09-02,17:04,Wednesday,17,Chicken Zinger Burger,Sliders & Burgers,1,209.0,209.0,UPI
+ORD-1010,2026-09-02,17:04,Wednesday,17,Corn N Cheese Momos (8 Pcs),Pasta & Momos,1,199.0,199.0,UPI
+ORD-1010,2026-09-02,17:04,Wednesday,17,Animal Crispy Chicken Slider,Sliders & Burgers,1,259.0,259.0,UPI
+ORD-1011,2026-09-02,19:16,Wednesday,19,Arabiata Spicy Pasta,Pasta & Momos,3,249.0,747.0,Credit Card
+ORD-1011,2026-09-02,19:16,Wednesday,19,Harry Potter Veg Slider,Sliders & Burgers,1,219.0,219.0,Credit Card
+ORD-1012,2026-09-02,18:48,Wednesday,18,Mac & Cheese Classic,Pasta & Momos,1,249.0,249.0,UPI
+ORD-1013,2026-09-02,18:04,Wednesday,18,Chicken Seekh Wrap,Wraps & Sandwiches,2,219.0,438.0,UPI
+ORD-1013,2026-09-02,18:04,Wednesday,18,Veggie Affair Pizza,Pizzas,1,239.0,239.0,UPI
+ORD-1013,2026-09-02,18:04,Wednesday,18,Alfredo Penne Pasta,Pasta & Momos,1,249.0,249.0,UPI
+ORD-1014,2026-09-02,21:48,Wednesday,21,Classic Salted Fries,Fries in a Jar,2,149.0,298.0,UPI
+ORD-1014,2026-09-02,21:48,Wednesday,21,Bahubali Grilled Patty Slider,Sliders & Burgers,2,259.0,518.0,UPI
+ORD-1014,2026-09-02,21:48,Wednesday,21,Chicken Seekh Wrap,Wraps & Sandwiches,1,219.0,219.0,UPI
+ORD-1015,2026-09-03,18:11,Thursday,18,Mac & Cheese Classic,Pasta & Momos,2,249.0,498.0,UPI
+ORD-1016,2026-09-03,18:12,Thursday,18,Juicy Lucy Sandwich,Wraps & Sandwiches,2,219.0,438.0,UPI
+ORD-1016,2026-09-03,18:12,Thursday,18,Hot & Spicy Chicken Wings (4 Pcs),Garlic Bread & Chicken,1,189.0,189.0,UPI
+ORD-1017,2026-09-03,11:59,Thursday,11,Chicken N Cheese Garlic Bread,Garlic Bread & Chicken,1,199.0,199.0,UPI
+ORD-1017,2026-09-03,11:59,Thursday,11,Pizza In A Jar (Veg),Pizzas,2,179.0,358.0,UPI
+ORD-1018,2026-09-03,20:52,Thursday,20,Hot & Spicy Chicken Wings (4 Pcs),Garlic Bread & Chicken,1,189.0,189.0,UPI
+ORD-1018,2026-09-03,20:52,Thursday,20,Paneer Popcorn Makhni Fries,Fries in a Jar,1,209.0,209.0,UPI
+ORD-1018,2026-09-03,20:52,Thursday,20,Peri-Peri Chicken Wrap,Wraps & Sandwiches,2,219.0,438.0,UPI
+ORD-1019,2026-09-03,18:13,Thursday,18,Fresh Vegetable Momos (8 Pcs),Pasta & Momos,1,199.0,199.0,Cash
+ORD-1019,2026-09-03,18:13,Thursday,18,Cheese Garlic Bread (4 Pcs),Garlic Bread & Chicken,1,159.0,159.0,Cash
+ORD-1019,2026-09-03,18:13,Thursday,18,Animal Crispy Chicken Slider,Sliders & Burgers,2,259.0,518.0,Cash
+ORD-1020,2026-09-03,18:15,Thursday,18,Arabiata Spicy Pasta,Pasta & Momos,1,249.0,249.0,UPI
+ORD-1020,2026-09-03,18:15,Thursday,18,Chicken Dominator Pizza,Pizzas,1,279.0,279.0,UPI
+ORD-1021,2026-09-03,19:14,Thursday,19,Chicken Zinger Burger,Sliders & Burgers,1,209.0,209.0,UPI
+ORD-1022,2026-09-03,15:31,Thursday,15,Double Xero 2-in-1 Classic Shakes,Waffles & Shakes,1,269.0,269.0,UPI
+ORD-1023,2026-09-03,18:50,Thursday,18,Butter Chicken Cheesy Fries,Fries in a Jar,1,229.0,229.0,UPI
+ORD-1023,2026-09-03,18:50,Thursday,18,Corn N Cheese Momos (8 Pcs),Pasta & Momos,1,199.0,199.0,UPI
+ORD-1024,2026-09-03,21:03,Thursday,21,Butter Chicken Cheesy Fries,Fries in a Jar,1,229.0,229.0,Credit Card
+ORD-1024,2026-09-03,21:03,Thursday,21,Animal Crispy Chicken Slider,Sliders & Burgers,1,259.0,259.0,Credit Card
+ORD-1024,2026-09-03,21:03,Thursday,21,Paneer Zinger Burger,Sliders & Burgers,1,189.0,189.0,Credit Card
+ORD-1024,2026-09-03,21:03,Thursday,21,Pizza Pockets (4 Pcs),Garlic Bread & Chicken,1,149.0,149.0,Credit Card
+ORD-1024,2026-09-03,21:03,Thursday,21,Veggie Affair Pizza,Pizzas,1,239.0,239.0,Credit Card
+ORD-1025,2026-09-04,21:28,Friday,21,Butter Chicken Cheesy Fries,Fries in a Jar,1,229.0,229.0,Cash
+ORD-1025,2026-09-04,21:28,Friday,21,Corn N Cheese Momos (8 Pcs),Pasta & Momos,1,199.0,199.0,Cash
+ORD-1025,2026-09-04,21:28,Friday,21,Juicy Lucy Sandwich,Wraps & Sandwiches,1,219.0,219.0,Cash
+ORD-1025,2026-09-04,21:28,Friday,21,Peri Peri Cheesy Fries,Fries in a Jar,1,199.0,199.0,Cash
+ORD-1026,2026-09-04,18:55,Friday,18,Avengers Aloo Patty Slider,Sliders & Burgers,3,239.0,717.0,UPI
+ORD-1027,2026-09-04,16:50,Friday,16,Fresh Vegetable Momos (8 Pcs),Pasta & Momos,1,199.0,199.0,Credit Card
+ORD-1027,2026-09-04,16:50,Friday,16,Cheese Garlic Bread (4 Pcs),Garlic Bread & Chicken,1,159.0,159.0,Credit Card
+ORD-1028,2026-09-04,18:12,Friday,18,Arabiata Spicy Pasta,Pasta & Momos,2,249.0,498.0,UPI
+ORD-1028,2026-09-04,18:12,Friday,18,Alfredo Penne Pasta,Pasta & Momos,2,249.0,498.0,UPI
+ORD-1028,2026-09-04,18:12,Friday,18,Chicken N Cheese Garlic Bread,Garlic Bread & Chicken,1,199.0,199.0,UPI
+ORD-1028,2026-09-04,18:12,Friday,18,Chicken & Cheese Fries,Fries in a Jar,2,219.0,438.0,UPI
+ORD-1029,2026-09-04,12:11,Friday,12,Crunchy Chicken Poppers,Garlic Bread & Chicken,1,179.0,179.0,UPI
+ORD-1030,2026-09-04,21:36,Friday,21,Mac & Cheese Classic,Pasta & Momos,1,249.0,249.0,UPI
+ORD-1030,2026-09-04,21:36,Friday,21,Bahubali Grilled Patty Slider,Sliders & Burgers,2,259.0,518.0,UPI
+ORD-1030,2026-09-04,21:36,Friday,21,Arabiata Spicy Pasta,Pasta & Momos,1,249.0,249.0,UPI
+ORD-1031,2026-09-04,20:15,Friday,20,Corn N Cheese Momos (8 Pcs),Pasta & Momos,1,199.0,199.0,UPI
+ORD-1032,2026-09-04,21:59,Friday,21,Hot Chocolate Brownie Waffle,Waffles & Shakes,2,219.0,438.0,UPI
+ORD-1033,2026-09-04,14:16,Friday,14,Chicken & Cheese Fries,Fries in a Jar,1,219.0,219.0,UPI
+ORD-1034,2026-09-04,16:28,Friday,16,Pink Sauce Penne Pasta,Pasta & Momos,1,249.0,249.0,Cash
+ORD-1034,2026-09-04,16:28,Friday,16,Hot Chocolate Brownie Waffle,Waffles & Shakes,1,219.0,219.0,Cash
+ORD-1034,2026-09-04,16:28,Friday,16,Corn N Cheese Momos (8 Pcs),Pasta & Momos,1,199.0,199.0,Cash
+ORD-1035,2026-09-04,19:56,Friday,19,Classic Salted Fries,Fries in a Jar,1,149.0,149.0,UPI
+ORD-1036,2026-09-04,16:38,Friday,16,Chicken Steamed Momos (8 Pcs),Pasta & Momos,1,229.0,229.0,UPI
+ORD-1036,2026-09-04,16:38,Friday,16,Pizza Pockets (4 Pcs),Garlic Bread & Chicken,1,149.0,149.0,UPI
+ORD-1037,2026-09-04,21:03,Friday,21,Pizza In A Jar (Non-Veg),Pizzas,1,189.0,189.0,UPI
+ORD-1037,2026-09-04,21:03,Friday,21,Peri Peri Cheesy Fries,Fries in a Jar,1,199.0,199.0,UPI
+ORD-1038,2026-09-04,15:47,Friday,15,Chicken Tikka Sandwich,Wraps & Sandwiches,2,209.0,418.0,UPI
+ORD-1038,2026-09-04,15:47,Friday,15,Classic Salted Fries,Fries in a Jar,1,149.0,149.0,UPI
+ORD-1039,2026-09-04,13:02,Friday,13,Cheesy Margherita Pizza,Pizzas,1,219.0,219.0,Cash
+ORD-1039,2026-09-04,13:02,Friday,13,Paneer Popcorn Makhni Fries,Fries in a Jar,2,209.0,418.0,Cash
+ORD-1040,2026-09-04,20:55,Friday,20,Chicken Steamed Momos (8 Pcs),Pasta & Momos,2,229.0,458.0,UPI
+ORD-1041,2026-09-04,19:55,Friday,19,Cheesy Margherita Pizza,Pizzas,3,219.0,657.0,UPI
+ORD-1041,2026-09-04,19:55,Friday,19,Classic Choco Fudge Waffle,Waffles & Shakes,1,209.0,209.0,UPI
+ORD-1041,2026-09-04,19:55,Friday,19,Double Xero 2-in-1 Classic Shakes,Waffles & Shakes,2,269.0,538.0,UPI
+ORD-1042,2026-09-04,12:47,Friday,12,Animal Crispy Chicken Slider,Sliders & Burgers,1,259.0,259.0,Cash
+ORD-1042,2026-09-04,12:47,Friday,12,Pink Sauce Penne Pasta,Pasta & Momos,1,249.0,249.0,Cash
+ORD-1043,2026-09-05,13:44,Saturday,13,Crunchy Chicken Poppers,Garlic Bread & Chicken,1,179.0,179.0,UPI
+ORD-1043,2026-09-05,13:44,Saturday,13,Veggie Affair Pizza,Pizzas,1,239.0,239.0,UPI
+ORD-1043,2026-09-05,13:44,Saturday,13,Chicken N Cheese Garlic Bread,Garlic Bread & Chicken,1,199.0,199.0,UPI
+ORD-1044,2026-09-05,14:01,Saturday,14,Super Veggie Burger,Sliders & Burgers,1,169.0,169.0,Credit Card
+ORD-1045,2026-09-05,20:22,Saturday,20,Hot Chocolate Brownie Waffle,Waffles & Shakes,2,219.0,438.0,Credit Card
+ORD-1045,2026-09-05,20:22,Saturday,20,Juicy Lucy Sandwich,Wraps & Sandwiches,1,219.0,219.0,Credit Card
+ORD-1046,2026-09-05,21:11,Saturday,21,Pizza Fries,Fries in a Jar,3,179.0,537.0,Credit Card
+ORD-1046,2026-09-05,21:11,Saturday,21,Pink Sauce Penne Pasta,Pasta & Momos,1,249.0,249.0,Credit Card
+ORD-1046,2026-09-05,21:11,Saturday,21,Paneer Zinger Burger,Sliders & Burgers,2,189.0,378.0,Credit Card
+ORD-1046,2026-09-05,21:11,Saturday,21,Crispy Chicken Strips (6 Pcs),Garlic Bread & Chicken,1,139.0,139.0,Credit Card
+ORD-1046,2026-09-05,21:11,Saturday,21,Paneer Kebab Wrap,Wraps & Sandwiches,1,179.0,179.0,Credit Card
+ORD-1047,2026-09-05,18:33,Saturday,18,Cheese Garlic Bread (4 Pcs),Garlic Bread & Chicken,1,159.0,159.0,Cash
+ORD-1047,2026-09-05,18:33,Saturday,18,Chicken N Cheese Garlic Bread,Garlic Bread & Chicken,1,199.0,199.0,Cash
+ORD-1047,2026-09-05,18:33,Saturday,18,Chicken Steamed Momos (8 Pcs),Pasta & Momos,1,229.0,229.0,Cash
+ORD-1048,2026-09-05,17:20,Saturday,17,Double Xero 2-in-1 Premium Shakes,Waffles & Shakes,1,309.0,309.0,Credit Card
+ORD-1049,2026-09-05,19:20,Saturday,19,Paneer Popcorn Makhni Fries,Fries in a Jar,2,209.0,418.0,UPI
+ORD-1049,2026-09-05,19:20,Saturday,19,Bahubali Grilled Patty Slider,Sliders & Burgers,1,259.0,259.0,UPI
+ORD-1050,2026-09-05,21:39,Saturday,21,Crispy Onion Rings (8 Pcs),Garlic Bread & Chicken,1,139.0,139.0,UPI
+ORD-1050,2026-09-05,21:39,Saturday,21,Super Veggie Burger,Sliders & Burgers,1,169.0,169.0,UPI
+ORD-1051,2026-09-05,19:20,Saturday,19,Chicken Dominator Pizza,Pizzas,2,279.0,558.0,UPI
+ORD-1051,2026-09-05,19:20,Saturday,19,Peri-Peri Chicken Wrap,Wraps & Sandwiches,1,219.0,219.0,UPI
+ORD-1052,2026-09-05,13:05,Saturday,13,Alfredo Penne Pasta,Pasta & Momos,2,249.0,498.0,UPI
+ORD-1052,2026-09-05,13:05,Saturday,13,Butter Chicken Cheesy Fries,Fries in a Jar,1,229.0,229.0,UPI
+ORD-1053,2026-09-05,17:51,Saturday,17,Veggie Affair Pizza,Pizzas,1,239.0,239.0,UPI
+ORD-1054,2026-09-05,20:04,Saturday,20,Arabiata Spicy Pasta,Pasta & Momos,1,249.0,249.0,UPI
+ORD-1054,2026-09-05,20:04,Saturday,20,Cheese Garlic Bread (4 Pcs),Garlic Bread & Chicken,1,159.0,159.0,UPI
+ORD-1054,2026-09-05,20:04,Saturday,20,Avengers Aloo Patty Slider,Sliders & Burgers,2,239.0,478.0,UPI
+ORD-1054,2026-09-05,20:04,Saturday,20,Animal Crispy Chicken Slider,Sliders & Burgers,2,259.0,518.0,UPI
+ORD-1055,2026-09-05,21:49,Saturday,21,Nutella Oreo Waffle Jar,Waffles & Shakes,1,229.0,229.0,UPI
+ORD-1055,2026-09-05,21:49,Saturday,21,Chicken Tikka Sandwich,Wraps & Sandwiches,1,209.0,209.0,UPI
+ORD-1056,2026-09-05,20:29,Saturday,20,Juicy Lucy Sandwich,Wraps & Sandwiches,1,219.0,219.0,UPI
+ORD-1056,2026-09-05,20:29,Saturday,20,Alfredo Penne Pasta,Pasta & Momos,1,249.0,249.0,UPI
+ORD-1057,2026-09-05,18:52,Saturday,18,Crunchy Chicken Poppers,Garlic Bread & Chicken,1,179.0,179.0,Credit Card
+ORD-1057,2026-09-05,18:52,Saturday,18,Alfredo Penne Pasta,Pasta & Momos,1,249.0,249.0,Credit Card
+ORD-1057,2026-09-05,18:52,Saturday,18,Double Xero 2-in-1 Premium Shakes,Waffles & Shakes,1,309.0,309.0,Credit Card
+ORD-1058,2026-09-05,15:40,Saturday,15,Chicken Seekh Wrap,Wraps & Sandwiches,1,219.0,219.0,UPI
+ORD-1058,2026-09-05,15:40,Saturday,15,Pizza In A Jar (Veg),Pizzas,1,179.0,179.0,UPI
+ORD-1059,2026-09-05,14:21,Saturday,14,Paneer Popcorn Makhni Fries,Fries in a Jar,1,209.0,209.0,UPI
+ORD-1059,2026-09-05,14:21,Saturday,14,Pizza In A Jar (Veg),Pizzas,1,179.0,179.0,UPI
+ORD-1060,2026-09-05,12:26,Saturday,12,Chicken & Cheese Fries,Fries in a Jar,1,219.0,219.0,UPI
+ORD-1060,2026-09-05,12:26,Saturday,12,Crispy Chicken Strips (6 Pcs),Garlic Bread & Chicken,1,139.0,139.0,UPI
+ORD-1061,2026-09-06,21:01,Sunday,21,Avengers Aloo Patty Slider,Sliders & Burgers,1,239.0,239.0,Cash
+ORD-1061,2026-09-06,21:01,Sunday,21,Peri Peri Cheesy Fries,Fries in a Jar,2,199.0,398.0,Cash
+ORD-1061,2026-09-06,21:01,Sunday,21,Harry Potter Veg Slider,Sliders & Burgers,2,219.0,438.0,Cash
+ORD-1062,2026-09-06,18:47,Sunday,18,Double Xero 2-in-1 Premium Shakes,Waffles & Shakes,1,309.0,309.0,Credit Card
+ORD-1062,2026-09-06,18:47,Sunday,18,Peri-Peri Chicken Wrap,Wraps & Sandwiches,1,219.0,219.0,Credit Card
+ORD-1062,2026-09-06,18:47,Sunday,18,Pizza In A Jar (Veg),Pizzas,1,179.0,179.0,Credit Card
+ORD-1063,2026-09-06,20:46,Sunday,20,Paneer Popcorn Makhni Fries,Fries in a Jar,1,209.0,209.0,UPI
+ORD-1063,2026-09-06,20:46,Sunday,20,Mac & Cheese Classic,Pasta & Momos,1,249.0,249.0,UPI
+ORD-1064,2026-09-06,19:01,Sunday,19,Double Xero 2-in-1 Classic Shakes,Waffles & Shakes,1,269.0,269.0,UPI
+ORD-1064,2026-09-06,19:01,Sunday,19,Butter Chicken Pizza,Pizzas,1,299.0,299.0,UPI
+ORD-1065,2026-09-06,18:21,Sunday,18,Chicken N Cheese Garlic Bread,Garlic Bread & Chicken,1,199.0,199.0,Credit Card
+ORD-1065,2026-09-06,18:21,Sunday,18,Crispy Onion Rings (8 Pcs),Garlic Bread & Chicken,1,139.0,139.0,Credit Card
+ORD-1066,2026-09-06,12:34,Sunday,12,Veggie Affair Pizza,Pizzas,1,239.0,239.0,UPI
+ORD-1066,2026-09-06,12:34,Sunday,12,Chicken & Cheese Fries,Fries in a Jar,1,219.0,219.0,UPI
+ORD-1066,2026-09-06,12:34,Sunday,12,Double Xero 2-in-1 Premium Shakes,Waffles & Shakes,1,309.0,309.0,UPI
+ORD-1067,2026-09-06,20:39,Sunday,20,Chicken Steamed Momos (8 Pcs),Pasta & Momos,1,229.0,229.0,UPI
+ORD-1068,2026-09-06,14:44,Sunday,14,Alfredo Penne Pasta,Pasta & Momos,2,249.0,498.0,UPI
+ORD-1069,2026-09-06,20:49,Sunday,20,Classic Salted Fries,Fries in a Jar,1,149.0,149.0,Cash
+ORD-1069,2026-09-06,20:49,Sunday,20,Peri Peri Cheesy Fries,Fries in a Jar,1,199.0,199.0,Cash
+ORD-1069,2026-09-06,20:49,Sunday,20,Chicken Zinger Burger,Sliders & Burgers,1,209.0,209.0,Cash
+ORD-1069,2026-09-06,20:49,Sunday,20,Chicken Steamed Momos (8 Pcs),Pasta & Momos,1,229.0,229.0,Cash
+ORD-1069,2026-09-06,20:49,Sunday,20,Nutella Oreo Waffle Jar,Waffles & Shakes,1,229.0,229.0,Cash
+ORD-1070,2026-09-06,13:49,Sunday,13,Chicken N Cheese Garlic Bread,Garlic Bread & Chicken,1,199.0,199.0,UPI
+ORD-1070,2026-09-06,13:49,Sunday,13,Cheese Garlic Bread (4 Pcs),Garlic Bread & Chicken,1,159.0,159.0,UPI
+ORD-1071,2026-09-06,19:42,Sunday,19,Paneer Zinger Burger,Sliders & Burgers,1,189.0,189.0,UPI
+ORD-1071,2026-09-06,19:42,Sunday,19,Pizza Pockets (4 Pcs),Garlic Bread & Chicken,2,149.0,298.0,UPI
+ORD-1071,2026-09-06,19:42,Sunday,19,Crunchy Chicken Poppers,Garlic Bread & Chicken,1,179.0,179.0,UPI
+ORD-1072,2026-09-06,20:45,Sunday,20,Juicy Lucy Sandwich,Wraps & Sandwiches,1,219.0,219.0,UPI
+ORD-1072,2026-09-06,20:45,Sunday,20,Corn N Cheese Momos (8 Pcs),Pasta & Momos,2,199.0,398.0,UPI
+ORD-1073,2026-09-06,20:29,Sunday,20,Pizza In A Jar (Veg),Pizzas,1,179.0,179.0,UPI
+ORD-1073,2026-09-06,20:29,Sunday,20,Pizza Pockets (4 Pcs),Garlic Bread & Chicken,2,149.0,298.0,UPI
+ORD-1073,2026-09-06,20:29,Sunday,20,Crunchy Chicken Poppers,Garlic Bread & Chicken,1,179.0,179.0,UPI
+ORD-1074,2026-09-06,18:39,Sunday,18,Green Goblin Sandwich,Wraps & Sandwiches,1,199.0,199.0,Credit Card
+ORD-1074,2026-09-06,18:39,Sunday,18,Chicken Zinger Burger,Sliders & Burgers,1,209.0,209.0,Credit Card
+ORD-1075,2026-09-06,15:17,Sunday,15,Pizza In A Jar (Non-Veg),Pizzas,2,189.0,378.0,Cash
+ORD-1075,2026-09-06,15:17,Sunday,15,Peri Peri Cheesy Fries,Fries in a Jar,1,199.0,199.0,Cash
+ORD-1076,2026-09-07,20:31,Monday,20,Peri-Peri Chicken Wrap,Wraps & Sandwiches,1,219.0,219.0,UPI
+ORD-1076,2026-09-07,20:31,Monday,20,Cheese Garlic Bread (4 Pcs),Garlic Bread & Chicken,1,159.0,159.0,UPI
+ORD-1077,2026-09-07,15:25,Monday,15,Juicy Lucy Sandwich,Wraps & Sandwiches,1,219.0,219.0,Credit Card
+ORD-1078,2026-09-07,19:27,Monday,19,Harry Potter Veg Slider,Sliders & Burgers,1,219.0,219.0,Debit Card
+ORD-1078,2026-09-07,19:27,Monday,19,Chicken Seekh Wrap,Wraps & Sandwiches,1,219.0,219.0,Debit Card
+ORD-1078,2026-09-07,19:27,Monday,19,Super Veggie Burger,Sliders & Burgers,1,169.0,169.0,Debit Card
+ORD-1079,2026-09-07,20:48,Monday,20,Chicken N Cheese Garlic Bread,Garlic Bread & Chicken,1,199.0,199.0,Credit Card
+ORD-1079,2026-09-07,20:48,Monday,20,Pizza In A Jar (Non-Veg),Pizzas,1,189.0,189.0,Credit Card
+ORD-1080,2026-09-07,19:06,Monday,19,Harry Potter Veg Slider,Sliders & Burgers,1,219.0,219.0,Cash
+ORD-1080,2026-09-07,19:06,Monday,19,Super Veggie Burger,Sliders & Burgers,1,169.0,169.0,Cash
+ORD-1081,2026-09-07,12:03,Monday,12,Paneer Popcorn Makhni Fries,Fries in a Jar,1,209.0,209.0,UPI
+ORD-1081,2026-09-07,12:03,Monday,12,Crunchy Chicken Poppers,Garlic Bread & Chicken,2,179.0,358.0,UPI
+ORD-1082,2026-09-07,19:30,Monday,19,Nutella Oreo Waffle Jar,Waffles & Shakes,2,229.0,458.0,UPI
+ORD-1082,2026-09-07,19:30,Monday,19,Veggie Affair Pizza,Pizzas,1,239.0,239.0,UPI
+ORD-1083,2026-09-08,12:31,Tuesday,12,Pizza Fries,Fries in a Jar,1,179.0,179.0,UPI
+ORD-1083,2026-09-08,12:31,Tuesday,12,Cheesy Margherita Pizza,Pizzas,1,219.0,219.0,UPI
+ORD-1084,2026-09-08,22:07,Tuesday,22,Pink Sauce Penne Pasta,Pasta & Momos,1,249.0,249.0,UPI
+ORD-1084,2026-09-08,22:07,Tuesday,22,Mac & Cheese Classic,Pasta & Momos,1,249.0,249.0,UPI
+ORD-1085,2026-09-08,21:19,Tuesday,21,Super Veggie Burger,Sliders & Burgers,1,169.0,169.0,Cash
+ORD-1085,2026-09-08,21:19,Tuesday,21,Mac & Cheese Classic,Pasta & Momos,1,249.0,249.0,Cash
+ORD-1085,2026-09-08,21:19,Tuesday,21,Pink Sauce Penne Pasta,Pasta & Momos,1,249.0,249.0,Cash
+ORD-1085,2026-09-08,21:19,Tuesday,21,Chicken N Cheese Garlic Bread,Garlic Bread & Chicken,1,199.0,199.0,Cash
+ORD-1085,2026-09-08,21:19,Tuesday,21,Classic Choco Fudge Waffle,Waffles & Shakes,1,209.0,209.0,Cash
+ORD-1086,2026-09-08,12:00,Tuesday,12,Chicken Seekh Wrap,Wraps & Sandwiches,1,219.0,219.0,UPI
+ORD-1086,2026-09-08,12:00,Tuesday,12,Pizza Fries,Fries in a Jar,1,179.0,179.0,UPI
+ORD-1087,2026-09-08,20:04,Tuesday,20,Crispy Chicken Strips (6 Pcs),Garlic Bread & Chicken,1,139.0,139.0,Credit Card
+ORD-1087,2026-09-08,20:04,Tuesday,20,Mac & Cheese Classic,Pasta & Momos,1,249.0,249.0,Credit Card
+ORD-1087,2026-09-08,20:04,Tuesday,20,Chicken Steamed Momos (8 Pcs),Pasta & Momos,1,229.0,229.0,Credit Card
+ORD-1087,2026-09-08,20:04,Tuesday,20,Classic Choco Fudge Waffle,Waffles & Shakes,2,209.0,418.0,Credit Card
+ORD-1088,2026-09-08,20:04,Tuesday,20,Pink Sauce Penne Pasta,Pasta & Momos,1,249.0,249.0,UPI
+ORD-1088,2026-09-08,20:04,Tuesday,20,Crunchy Chicken Poppers,Garlic Bread & Chicken,1,179.0,179.0,UPI
+ORD-1088,2026-09-08,20:04,Tuesday,20,Double Xero 2-in-1 Premium Shakes,Waffles & Shakes,1,309.0,309.0,UPI
+ORD-1089,2026-09-08,17:17,Tuesday,17,Butter Chicken Cheesy Fries,Fries in a Jar,1,229.0,229.0,UPI
+ORD-1089,2026-09-08,17:17,Tuesday,17,Pizza Fries,Fries in a Jar,1,179.0,179.0,UPI
+ORD-1090,2026-09-09,14:05,Wednesday,14,Crunchy Chicken Poppers,Garlic Bread & Chicken,1,179.0,179.0,UPI
+ORD-1090,2026-09-09,14:05,Wednesday,14,Juicy Lucy Sandwich,Wraps & Sandwiches,1,219.0,219.0,UPI
+ORD-1091,2026-09-09,20:36,Wednesday,20,Peri-Peri Chicken Wrap,Wraps & Sandwiches,1,219.0,219.0,UPI
+ORD-1091,2026-09-09,20:36,Wednesday,20,Corn N Cheese Momos (8 Pcs),Pasta & Momos,1,199.0,199.0,UPI
+ORD-1091,2026-09-09,20:36,Wednesday,20,Double Xero 2-in-1 Premium Shakes,Waffles & Shakes,1,309.0,309.0,UPI
+ORD-1092,2026-09-09,18:05,Wednesday,18,Chicken Zinger Burger,Sliders & Burgers,1,209.0,209.0,UPI
+ORD-1092,2026-09-09,18:05,Wednesday,18,Classic Salted Fries,Fries in a Jar,1,149.0,149.0,UPI
+ORD-1093,2026-09-09,18:42,Wednesday,18,Alfredo Penne Pasta,Pasta & Momos,3,249.0,747.0,Debit Card
+ORD-1093,2026-09-09,18:42,Wednesday,18,Chicken Seekh Wrap,Wraps & Sandwiches,1,219.0,219.0,Debit Card
+ORD-1093,2026-09-09,18:42,Wednesday,18,Chicken Zinger Burger,Sliders & Burgers,2,209.0,418.0,Debit Card
+ORD-1094,2026-09-09,22:42,Wednesday,22,Chicken & Cheese Fries,Fries in a Jar,1,219.0,219.0,Cash
+ORD-1094,2026-09-09,22:42,Wednesday,22,Chicken Tikka Sandwich,Wraps & Sandwiches,1,209.0,209.0,Cash
+ORD-1095,2026-09-09,18:03,Wednesday,18,Classic Choco Fudge Waffle,Waffles & Shakes,1,209.0,209.0,UPI
+ORD-1095,2026-09-09,18:03,Wednesday,18,Paneer Kebab Wrap,Wraps & Sandwiches,3,179.0,537.0,UPI
+ORD-1095,2026-09-09,18:03,Wednesday,18,Fresh Vegetable Momos (8 Pcs),Pasta & Momos,1,199.0,199.0,UPI
+ORD-1096,2026-09-09,14:10,Wednesday,14,Animal Crispy Chicken Slider,Sliders & Burgers,1,259.0,259.0,UPI
+ORD-1097,2026-09-10,20:07,Thursday,20,Crispy Onion Rings (8 Pcs),Garlic Bread & Chicken,1,139.0,139.0,UPI
+ORD-1098,2026-09-10,20:32,Thursday,20,Peri-Peri Chicken Wrap,Wraps & Sandwiches,2,219.0,438.0,Credit Card
+ORD-1099,2026-09-10,13:12,Thursday,13,Crunchy Chicken Poppers,Garlic Bread & Chicken,2,179.0,358.0,Cash
+ORD-1100,2026-09-10,20:26,Thursday,20,Pizza In A Jar (Veg),Pizzas,1,179.0,179.0,UPI
+ORD-1100,2026-09-10,20:26,Thursday,20,Peri Peri Cheesy Fries,Fries in a Jar,1,199.0,199.0,UPI
+ORD-1100,2026-09-10,20:26,Thursday,20,Cheese Garlic Bread (4 Pcs),Garlic Bread & Chicken,1,159.0,159.0,UPI
+ORD-1101,2026-09-10,21:28,Thursday,21,Alfredo Penne Pasta,Pasta & Momos,2,249.0,498.0,UPI
+ORD-1102,2026-09-10,16:12,Thursday,16,Avengers Aloo Patty Slider,Sliders & Burgers,1,239.0,239.0,Debit Card
+ORD-1102,2026-09-10,16:12,Thursday,16,Pizza Pockets (4 Pcs),Garlic Bread & Chicken,1,149.0,149.0,Debit Card
+ORD-1103,2026-09-10,18:58,Thursday,18,Chicken Steamed Momos (8 Pcs),Pasta & Momos,3,229.0,687.0,Cash
+ORD-1103,2026-09-10,18:58,Thursday,18,Crunchy Chicken Poppers,Garlic Bread & Chicken,1,179.0,179.0,Cash
+ORD-1104,2026-09-10,12:32,Thursday,12,Classic Salted Fries,Fries in a Jar,2,149.0,298.0,Debit Card
+ORD-1105,2026-09-10,13:58,Thursday,13,Animal Crispy Chicken Slider,Sliders & Burgers,1,259.0,259.0,UPI
+ORD-1105,2026-09-10,13:58,Thursday,13,Pink Sauce Penne Pasta,Pasta & Momos,1,249.0,249.0,UPI
+ORD-1106,2026-09-10,22:21,Thursday,22,Butter Chicken Cheesy Fries,Fries in a Jar,1,229.0,229.0,Credit Card
+ORD-1106,2026-09-10,22:21,Thursday,22,Chicken Zinger Burger,Sliders & Burgers,1,209.0,209.0,Credit Card
+ORD-1107,2026-09-11,21:40,Friday,21,Double Xero 2-in-1 Classic Shakes,Waffles & Shakes,1,269.0,269.0,Credit Card
+ORD-1107,2026-09-11,21:40,Friday,21,Pizza Fries,Fries in a Jar,2,179.0,358.0,Credit Card
+ORD-1107,2026-09-11,21:40,Friday,21,Chicken & Cheese Fries,Fries in a Jar,3,219.0,657.0,Credit Card
+ORD-1108,2026-09-11,20:27,Friday,20,Fresh Vegetable Momos (8 Pcs),Pasta & Momos,1,199.0,199.0,Debit Card
+ORD-1108,2026-09-11,20:27,Friday,20,Butter Chicken Cheesy Fries,Fries in a Jar,1,229.0,229.0,Debit Card
+ORD-1108,2026-09-11,20:27,Friday,20,Butter Chicken Pizza,Pizzas,1,299.0,299.0,Debit Card
+ORD-1109,2026-09-11,12:22,Friday,12,Green Goblin Sandwich,Wraps & Sandwiches,1,199.0,199.0,UPI
+ORD-1110,2026-09-11,20:10,Friday,20,Avengers Aloo Patty Slider,Sliders & Burgers,1,239.0,239.0,UPI
+ORD-1110,2026-09-11,20:10,Friday,20,Chicken Steamed Momos (8 Pcs),Pasta & Momos,1,229.0,229.0,UPI
+ORD-1110,2026-09-11,20:10,Friday,20,Green Goblin Sandwich,Wraps & Sandwiches,1,199.0,199.0,UPI
+ORD-1111,2026-09-11,18:42,Friday,18,Double Xero 2-in-1 Premium Shakes,Waffles & Shakes,1,309.0,309.0,UPI
+ORD-1111,2026-09-11,18:42,Friday,18,Chicken Steamed Momos (8 Pcs),Pasta & Momos,1,229.0,229.0,UPI
+ORD-1111,2026-09-11,18:42,Friday,18,Cheesy Margherita Pizza,Pizzas,1,219.0,219.0,UPI
+ORD-1111,2026-09-11,18:42,Friday,18,Paneer Kebab Wrap,Wraps & Sandwiches,1,179.0,179.0,UPI
+ORD-1112,2026-09-11,15:54,Friday,15,Crispy Chicken Strips (6 Pcs),Garlic Bread & Chicken,1,139.0,139.0,UPI
+ORD-1112,2026-09-11,15:54,Friday,15,Classic Salted Fries,Fries in a Jar,1,149.0,149.0,UPI
+ORD-1112,2026-09-11,15:54,Friday,15,Avengers Aloo Patty Slider,Sliders & Burgers,1,239.0,239.0,UPI
+ORD-1113,2026-09-11,12:53,Friday,12,Chicken Tikka Sandwich,Wraps & Sandwiches,1,209.0,209.0,Credit Card
+ORD-1114,2026-09-11,20:03,Friday,20,Crispy Onion Rings (8 Pcs),Garlic Bread & Chicken,1,139.0,139.0,Cash
+ORD-1114,2026-09-11,20:03,Friday,20,Double Xero 2-in-1 Premium Shakes,Waffles & Shakes,1,309.0,309.0,Cash
+ORD-1114,2026-09-11,20:03,Friday,20,Hot & Spicy Chicken Wings (4 Pcs),Garlic Bread & Chicken,1,189.0,189.0,Cash
+ORD-1115,2026-09-11,14:16,Friday,14,Pink Sauce Penne Pasta,Pasta & Momos,1,249.0,249.0,Credit Card
+ORD-1115,2026-09-11,14:16,Friday,14,Crispy Chicken Strips (6 Pcs),Garlic Bread & Chicken,2,139.0,278.0,Credit Card
+ORD-1116,2026-09-11,19:19,Friday,19,Harry Potter Veg Slider,Sliders & Burgers,1,219.0,219.0,Credit Card
+ORD-1117,2026-09-11,21:20,Friday,21,Paneer Popcorn Makhni Fries,Fries in a Jar,3,209.0,627.0,Credit Card
+ORD-1117,2026-09-11,21:20,Friday,21,Juicy Lucy Sandwich,Wraps & Sandwiches,1,219.0,219.0,Credit Card
+ORD-1118,2026-09-11,21:53,Friday,21,Classic Choco Fudge Waffle,Waffles & Shakes,1,209.0,209.0,UPI
+ORD-1118,2026-09-11,21:53,Friday,21,Nutella Oreo Waffle Jar,Waffles & Shakes,1,229.0,229.0,UPI
+ORD-1118,2026-09-11,21:53,Friday,21,Super Veggie Burger,Sliders & Burgers,1,169.0,169.0,UPI
+ORD-1118,2026-09-11,21:53,Friday,21,Double Xero 2-in-1 Classic Shakes,Waffles & Shakes,1,269.0,269.0,UPI
+ORD-1119,2026-09-11,14:43,Friday,14,Double Xero 2-in-1 Premium Shakes,Waffles & Shakes,1,309.0,309.0,Credit Card
+ORD-1119,2026-09-11,14:43,Friday,14,Chicken N Cheese Garlic Bread,Garlic Bread & Chicken,1,199.0,199.0,Credit Card
+ORD-1119,2026-09-11,14:43,Friday,14,Harry Potter Veg Slider,Sliders & Burgers,1,219.0,219.0,Credit Card
+ORD-1120,2026-09-11,18:43,Friday,18,Avengers Aloo Patty Slider,Sliders & Burgers,1,239.0,239.0,Credit Card
+ORD-1120,2026-09-11,18:43,Friday,18,Corn N Cheese Momos (8 Pcs),Pasta & Momos,1,199.0,199.0,Credit Card
+ORD-1121,2026-09-11,18:39,Friday,18,Double Xero 2-in-1 Premium Shakes,Waffles & Shakes,1,309.0,309.0,Cash
+ORD-1121,2026-09-11,18:39,Friday,18,Chicken Dominator Pizza,Pizzas,2,279.0,558.0,Cash
+ORD-1121,2026-09-11,18:39,Friday,18,Chicken & Cheese Fries,Fries in a Jar,1,219.0,219.0,Cash
+ORD-1122,2026-09-11,18:08,Friday,18,Hot Chocolate Brownie Waffle,Waffles & Shakes,1,219.0,219.0,UPI
+ORD-1123,2026-09-11,14:34,Friday,14,Mac & Cheese Classic,Pasta & Momos,2,249.0,498.0,UPI
+ORD-1123,2026-09-11,14:34,Friday,14,Chicken Steamed Momos (8 Pcs),Pasta & Momos,1,229.0,229.0,UPI
+ORD-1124,2026-09-11,20:09,Friday,20,Crispy Onion Rings (8 Pcs),Garlic Bread & Chicken,1,139.0,139.0,Cash
+ORD-1124,2026-09-11,20:09,Friday,20,Pink Sauce Penne Pasta,Pasta & Momos,1,249.0,249.0,Cash
+ORD-1124,2026-09-11,20:09,Friday,20,Classic Choco Fudge Waffle,Waffles & Shakes,1,209.0,209.0,Cash
+ORD-1125,2026-09-12,18:15,Saturday,18,Chicken Steamed Momos (8 Pcs),Pasta & Momos,1,229.0,229.0,Cash
+ORD-1126,2026-09-12,22:22,Saturday,22,Nutella Oreo Waffle Jar,Waffles & Shakes,2,229.0,458.0,UPI
+ORD-1127,2026-09-12,13:13,Saturday,13,Peri Peri Cheesy Fries,Fries in a Jar,1,199.0,199.0,Credit Card
+ORD-1127,2026-09-12,13:13,Saturday,13,Cheese Garlic Bread (4 Pcs),Garlic Bread & Chicken,1,159.0,159.0,Credit Card
+ORD-1128,2026-09-12,19:04,Saturday,19,Arabiata Spicy Pasta,Pasta & Momos,1,249.0,249.0,Cash
+ORD-1128,2026-09-12,19:04,Saturday,19,Crunchy Chicken Poppers,Garlic Bread & Chicken,1,179.0,179.0,Cash
+ORD-1128,2026-09-12,19:04,Saturday,19,Chicken Dominator Pizza,Pizzas,1,279.0,279.0,Cash
+ORD-1129,2026-09-12,16:09,Saturday,16,Crispy Chicken Strips (6 Pcs),Garlic Bread & Chicken,1,139.0,139.0,Debit Card
+ORD-1129,2026-09-12,16:09,Saturday,16,Classic Salted Fries,Fries in a Jar,1,149.0,149.0,Debit Card
+ORD-1129,2026-09-12,16:09,Saturday,16,Double Xero 2-in-1 Classic Shakes,Waffles & Shakes,1,269.0,269.0,Debit Card
+ORD-1130,2026-09-12,19:01,Saturday,19,Chicken N Cheese Garlic Bread,Garlic Bread & Chicken,1,199.0,199.0,UPI
+ORD-1131,2026-09-12,20:30,Saturday,20,Pink Sauce Penne Pasta,Pasta & Momos,1,249.0,249.0,UPI
+ORD-1131,2026-09-12,20:30,Saturday,20,Chicken Seekh Wrap,Wraps & Sandwiches,1,219.0,219.0,UPI
+ORD-1132,2026-09-12,20:58,Saturday,20,Chicken Seekh Wrap,Wraps & Sandwiches,1,219.0,219.0,Cash
+ORD-1132,2026-09-12,20:58,Saturday,20,Nutella Oreo Waffle Jar,Waffles & Shakes,1,229.0,229.0,Cash
+ORD-1132,2026-09-12,20:58,Saturday,20,Chicken & Cheese Fries,Fries in a Jar,1,219.0,219.0,Cash
+ORD-1133,2026-09-12,18:58,Saturday,18,Chicken Zinger Burger,Sliders & Burgers,1,209.0,209.0,UPI
+ORD-1133,2026-09-12,18:58,Saturday,18,Cheesy Margherita Pizza,Pizzas,1,219.0,219.0,UPI
+ORD-1133,2026-09-12,18:58,Saturday,18,Paneer Popcorn Makhni Fries,Fries in a Jar,1,209.0,209.0,UPI
+ORD-1133,2026-09-12,18:58,Saturday,18,Mac & Cheese Classic,Pasta & Momos,1,249.0,249.0,UPI
+ORD-1134,2026-09-12,17:32,Saturday,17,Fresh Vegetable Momos (8 Pcs),Pasta & Momos,2,199.0,398.0,Credit Card
+ORD-1135,2026-09-12,19:49,Saturday,19,Bahubali Grilled Patty Slider,Sliders & Burgers,2,259.0,518.0,UPI
+ORD-1135,2026-09-12,19:49,Saturday,19,Double Xero 2-in-1 Classic Shakes,Waffles & Shakes,1,269.0,269.0,UPI
+ORD-1135,2026-09-12,19:49,Saturday,19,Crunchy Chicken Poppers,Garlic Bread & Chicken,1,179.0,179.0,UPI
+ORD-1136,2026-09-12,17:16,Saturday,17,Double Xero 2-in-1 Premium Shakes,Waffles & Shakes,1,309.0,309.0,UPI
+ORD-1136,2026-09-12,17:16,Saturday,17,Chicken & Cheese Fries,Fries in a Jar,1,219.0,219.0,UPI
+ORD-1137,2026-09-12,13:47,Saturday,13,Chicken & Cheese Fries,Fries in a Jar,2,219.0,438.0,UPI
+ORD-1138,2026-09-12,19:42,Saturday,19,Chicken Steamed Momos (8 Pcs),Pasta & Momos,2,229.0,458.0,UPI
+ORD-1138,2026-09-12,19:42,Saturday,19,Chicken N Cheese Garlic Bread,Garlic Bread & Chicken,1,199.0,199.0,UPI
+ORD-1139,2026-09-12,21:38,Saturday,21,Chicken Tikka Sandwich,Wraps & Sandwiches,1,209.0,209.0,UPI
+ORD-1140,2026-09-12,18:54,Saturday,18,Avengers Aloo Patty Slider,Sliders & Burgers,2,239.0,478.0,UPI
+ORD-1140,2026-09-12,18:54,Saturday,18,Hot & Spicy Chicken Wings (4 Pcs),Garlic Bread & Chicken,3,189.0,567.0,UPI
+ORD-1140,2026-09-12,18:54,Saturday,18,Arabiata Spicy Pasta,Pasta & Momos,1,249.0,249.0,UPI
+ORD-1140,2026-09-12,18:54,Saturday,18,Crispy Chicken Strips (6 Pcs),Garlic Bread & Chicken,1,139.0,139.0,UPI
+ORD-1141,2026-09-12,19:01,Saturday,19,Fresh Vegetable Momos (8 Pcs),Pasta & Momos,1,199.0,199.0,Credit Card
+ORD-1141,2026-09-12,19:01,Saturday,19,Pizza Fries,Fries in a Jar,2,179.0,358.0,Credit Card
+ORD-1141,2026-09-12,19:01,Saturday,19,Pizza In A Jar (Veg),Pizzas,1,179.0,179.0,Credit Card
+ORD-1142,2026-09-12,13:09,Saturday,13,Paneer Popcorn Makhni Fries,Fries in a Jar,1,209.0,209.0,UPI
+ORD-1143,2026-09-13,12:47,Sunday,12,Paneer Kebab Wrap,Wraps & Sandwiches,1,179.0,179.0,UPI
+ORD-1144,2026-09-13,17:20,Sunday,17,Butter Chicken Cheesy Fries,Fries in a Jar,1,229.0,229.0,Credit Card
+ORD-1144,2026-09-13,17:20,Sunday,17,Chicken & Cheese Fries,Fries in a Jar,1,219.0,219.0,Credit Card
+ORD-1144,2026-09-13,17:20,Sunday,17,Cheesy Margherita Pizza,Pizzas,1,219.0,219.0,Credit Card
+ORD-1145,2026-09-13,19:31,Sunday,19,Chicken Dominator Pizza,Pizzas,1,279.0,279.0,Credit Card
+ORD-1145,2026-09-13,19:31,Sunday,19,Chicken Tikka Sandwich,Wraps & Sandwiches,1,209.0,209.0,Credit Card
+ORD-1146,2026-09-13,19:37,Sunday,19,Pizza Fries,Fries in a Jar,1,179.0,179.0,UPI
+ORD-1146,2026-09-13,19:37,Sunday,19,Animal Crispy Chicken Slider,Sliders & Burgers,1,259.0,259.0,UPI
+ORD-1146,2026-09-13,19:37,Sunday,19,Pink Sauce Penne Pasta,Pasta & Momos,1,249.0,249.0,UPI
+ORD-1147,2026-09-13,13:16,Sunday,13,Peri-Peri Chicken Wrap,Wraps & Sandwiches,1,219.0,219.0,UPI
+ORD-1148,2026-09-13,13:34,Sunday,13,Crispy Chicken Strips (6 Pcs),Garlic Bread & Chicken,1,139.0,139.0,Credit Card
+ORD-1148,2026-09-13,13:34,Sunday,13,Chicken N Cheese Garlic Bread,Garlic Bread & Chicken,2,199.0,398.0,Credit Card
+ORD-1149,2026-09-13,12:01,Sunday,12,Chicken Zinger Burger,Sliders & Burgers,1,209.0,209.0,UPI
+ORD-1150,2026-09-13,18:40,Sunday,18,Peri Peri Cheesy Fries,Fries in a Jar,1,199.0,199.0,UPI
+ORD-1151,2026-09-13,20:39,Sunday,20,Harry Potter Veg Slider,Sliders & Burgers,1,219.0,219.0,UPI
+ORD-1151,2026-09-13,20:39,Sunday,20,Paneer Kebab Wrap,Wraps & Sandwiches,1,179.0,179.0,UPI
+ORD-1151,2026-09-13,20:39,Sunday,20,Classic Salted Fries,Fries in a Jar,1,149.0,149.0,UPI
+ORD-1152,2026-09-13,21:47,Sunday,21,Butter Chicken Pizza,Pizzas,1,299.0,299.0,UPI
+ORD-1152,2026-09-13,21:47,Sunday,21,Chicken Tikka Sandwich,Wraps & Sandwiches,1,209.0,209.0,UPI
+ORD-1153,2026-09-13,21:22,Sunday,21,Corn N Cheese Momos (8 Pcs),Pasta & Momos,1,199.0,199.0,UPI
+ORD-1153,2026-09-13,21:22,Sunday,21,Cheesy Margherita Pizza,Pizzas,1,219.0,219.0,UPI
+ORD-1153,2026-09-13,21:22,Sunday,21,Classic Salted Fries,Fries in a Jar,1,149.0,149.0,UPI
+ORD-1153,2026-09-13,21:22,Sunday,21,Veggie Affair Pizza,Pizzas,2,239.0,478.0,UPI
+ORD-1153,2026-09-13,21:22,Sunday,21,Butter Chicken Pizza,Pizzas,1,299.0,299.0,UPI
+ORD-1154,2026-09-13,18:36,Sunday,18,Classic Choco Fudge Waffle,Waffles & Shakes,1,209.0,209.0,Credit Card
+ORD-1154,2026-09-13,18:36,Sunday,18,Alfredo Penne Pasta,Pasta & Momos,1,249.0,249.0,Credit Card
+ORD-1155,2026-09-13,21:40,Sunday,21,Chicken Seekh Wrap,Wraps & Sandwiches,1,219.0,219.0,UPI
+ORD-1155,2026-09-13,21:40,Sunday,21,Mac & Cheese Classic,Pasta & Momos,1,249.0,249.0,UPI
+ORD-1156,2026-09-13,17:04,Sunday,17,Chicken & Cheese Fries,Fries in a Jar,1,219.0,219.0,UPI
+ORD-1156,2026-09-13,17:04,Sunday,17,Crispy Onion Rings (8 Pcs),Garlic Bread & Chicken,2,139.0,278.0,UPI
+ORD-1157,2026-09-13,20:39,Sunday,20,Arabiata Spicy Pasta,Pasta & Momos,1,249.0,249.0,Credit Card
+ORD-1157,2026-09-13,20:39,Sunday,20,Nutella Oreo Waffle Jar,Waffles & Shakes,1,229.0,229.0,Credit Card
+ORD-1158,2026-09-14,21:36,Monday,21,Peri-Peri Chicken Wrap,Wraps & Sandwiches,1,219.0,219.0,Credit Card
+ORD-1158,2026-09-14,21:36,Monday,21,Cheesy Margherita Pizza,Pizzas,1,219.0,219.0,Credit Card
+ORD-1159,2026-09-14,21:21,Monday,21,Corn N Cheese Momos (8 Pcs),Pasta & Momos,1,199.0,199.0,Debit Card
+ORD-1160,2026-09-14,20:28,Monday,20,Harry Potter Veg Slider,Sliders & Burgers,1,219.0,219.0,UPI
+ORD-1160,2026-09-14,20:28,Monday,20,Double Xero 2-in-1 Premium Shakes,Waffles & Shakes,1,309.0,309.0,UPI
+ORD-1160,2026-09-14,20:28,Monday,20,Animal Crispy Chicken Slider,Sliders & Burgers,1,259.0,259.0,UPI
+ORD-1161,2026-09-14,19:21,Monday,19,Chicken Steamed Momos (8 Pcs),Pasta & Momos,1,229.0,229.0,UPI
+ORD-1162,2026-09-14,20:42,Monday,20,Cheesy Margherita Pizza,Pizzas,2,219.0,438.0,Debit Card
+ORD-1162,2026-09-14,20:42,Monday,20,Butter Chicken Cheesy Fries,Fries in a Jar,1,229.0,229.0,Debit Card
+ORD-1162,2026-09-14,20:42,Monday,20,Chicken Steamed Momos (8 Pcs),Pasta & Momos,1,229.0,229.0,Debit Card
+ORD-1163,2026-09-14,19:08,Monday,19,Chicken Zinger Burger,Sliders & Burgers,1,209.0,209.0,Credit Card
+ORD-1163,2026-09-14,19:08,Monday,19,Avengers Aloo Patty Slider,Sliders & Burgers,1,239.0,239.0,Credit Card
+ORD-1163,2026-09-14,19:08,Monday,19,Crispy Chicken Strips (6 Pcs),Garlic Bread & Chicken,1,139.0,139.0,Credit Card
+ORD-1163,2026-09-14,19:08,Monday,19,Crunchy Chicken Poppers,Garlic Bread & Chicken,1,179.0,179.0,Credit Card
+ORD-1164,2026-09-14,18:41,Monday,18,Peri Peri Cheesy Fries,Fries in a Jar,1,199.0,199.0,Credit Card
+ORD-1164,2026-09-14,18:41,Monday,18,Super Veggie Burger,Sliders & Burgers,1,169.0,169.0,Credit Card
+ORD-1164,2026-09-14,18:41,Monday,18,Nutella Oreo Waffle Jar,Waffles & Shakes,1,229.0,229.0,Credit Card
+ORD-1165,2026-09-15,22:09,Tuesday,22,Butter Chicken Cheesy Fries,Fries in a Jar,1,229.0,229.0,UPI
+ORD-1165,2026-09-15,22:09,Tuesday,22,Hot & Spicy Chicken Wings (4 Pcs),Garlic Bread & Chicken,1,189.0,189.0,UPI
+ORD-1165,2026-09-15,22:09,Tuesday,22,Crispy Onion Rings (8 Pcs),Garlic Bread & Chicken,1,139.0,139.0,UPI
+ORD-1165,2026-09-15,22:09,Tuesday,22,Double Xero 2-in-1 Classic Shakes,Waffles & Shakes,1,269.0,269.0,UPI
+ORD-1166,2026-09-15,17:10,Tuesday,17,Mac & Cheese Classic,Pasta & Momos,1,249.0,249.0,UPI
+ORD-1166,2026-09-15,17:10,Tuesday,17,Double Xero 2-in-1 Premium Shakes,Waffles & Shakes,1,309.0,309.0,UPI
+ORD-1166,2026-09-15,17:10,Tuesday,17,Cheese Garlic Bread (4 Pcs),Garlic Bread & Chicken,1,159.0,159.0,UPI
+ORD-1167,2026-09-15,22:39,Tuesday,22,Paneer Kebab Wrap,Wraps & Sandwiches,1,179.0,179.0,UPI
+ORD-1167,2026-09-15,22:39,Tuesday,22,Juicy Lucy Sandwich,Wraps & Sandwiches,1,219.0,219.0,UPI
+ORD-1167,2026-09-15,22:39,Tuesday,22,Chicken Zinger Burger,Sliders & Burgers,1,209.0,209.0,UPI
+ORD-1168,2026-09-15,17:36,Tuesday,17,Pizza In A Jar (Non-Veg),Pizzas,1,189.0,189.0,Debit Card
+ORD-1168,2026-09-15,17:36,Tuesday,17,Avengers Aloo Patty Slider,Sliders & Burgers,2,239.0,478.0,Debit Card
+ORD-1169,2026-09-15,20:51,Tuesday,20,Chicken & Cheese Fries,Fries in a Jar,1,219.0,219.0,Credit Card
+ORD-1169,2026-09-15,20:51,Tuesday,20,Peri-Peri Chicken Wrap,Wraps & Sandwiches,1,219.0,219.0,Credit Card
+ORD-1169,2026-09-15,20:51,Tuesday,20,Avengers Aloo Patty Slider,Sliders & Burgers,1,239.0,239.0,Credit Card
+ORD-1169,2026-09-15,20:51,Tuesday,20,Classic Choco Fudge Waffle,Waffles & Shakes,1,209.0,209.0,Credit Card
+ORD-1170,2026-09-15,13:28,Tuesday,13,Paneer Kebab Wrap,Wraps & Sandwiches,2,179.0,358.0,Cash
+ORD-1171,2026-09-15,14:28,Tuesday,14,Animal Crispy Chicken Slider,Sliders & Burgers,1,259.0,259.0,Cash
+ORD-1171,2026-09-15,14:28,Tuesday,14,Avengers Aloo Patty Slider,Sliders & Burgers,1,239.0,239.0,Cash
+ORD-1171,2026-09-15,14:28,Tuesday,14,Harry Potter Veg Slider,Sliders & Burgers,1,219.0,219.0,Cash
+ORD-1172,2026-09-16,16:06,Wednesday,16,Crispy Chicken Strips (6 Pcs),Garlic Bread & Chicken,1,139.0,139.0,Cash
+ORD-1172,2026-09-16,16:06,Wednesday,16,Cheesy Margherita Pizza,Pizzas,1,219.0,219.0,Cash
+ORD-1172,2026-09-16,16:06,Wednesday,16,Pizza In A Jar (Non-Veg),Pizzas,1,189.0,189.0,Cash
+ORD-1173,2026-09-16,20:28,Wednesday,20,Peri Peri Cheesy Fries,Fries in a Jar,1,199.0,199.0,Credit Card
+ORD-1173,2026-09-16,20:28,Wednesday,20,Chicken Dominator Pizza,Pizzas,1,279.0,279.0,Credit Card
+ORD-1173,2026-09-16,20:28,Wednesday,20,Cheesy Margherita Pizza,Pizzas,1,219.0,219.0,Credit Card
+ORD-1173,2026-09-16,20:28,Wednesday,20,Classic Choco Fudge Waffle,Waffles & Shakes,1,209.0,209.0,Credit Card
+ORD-1174,2026-09-16,13:15,Wednesday,13,Paneer Kebab Wrap,Wraps & Sandwiches,2,179.0,358.0,UPI
+ORD-1174,2026-09-16,13:15,Wednesday,13,Classic Salted Fries,Fries in a Jar,1,149.0,149.0,UPI
+ORD-1175,2026-09-16,11:32,Wednesday,11,Super Veggie Burger,Sliders & Burgers,1,169.0,169.0,UPI
+ORD-1175,2026-09-16,11:32,Wednesday,11,Peri Peri Cheesy Fries,Fries in a Jar,1,199.0,199.0,UPI
+ORD-1176,2026-09-16,13:42,Wednesday,13,Chicken & Cheese Fries,Fries in a Jar,3,219.0,657.0,UPI
+ORD-1176,2026-09-16,13:42,Wednesday,13,Green Goblin Sandwich,Wraps & Sandwiches,1,199.0,199.0,UPI
+ORD-1176,2026-09-16,13:42,Wednesday,13,Peri-Peri Chicken Wrap,Wraps & Sandwiches,1,219.0,219.0,UPI
+ORD-1177,2026-09-16,18:40,Wednesday,18,Chicken N Cheese Garlic Bread,Garlic Bread & Chicken,1,199.0,199.0,UPI
+ORD-1177,2026-09-16,18:40,Wednesday,18,Harry Potter Veg Slider,Sliders & Burgers,1,219.0,219.0,UPI
+ORD-1178,2026-09-16,19:06,Wednesday,19,Paneer Zinger Burger,Sliders & Burgers,1,189.0,189.0,Credit Card
+ORD-1178,2026-09-16,19:06,Wednesday,19,Pizza Fries,Fries in a Jar,1,179.0,179.0,Credit Card
+ORD-1178,2026-09-16,19:06,Wednesday,19,Alfredo Penne Pasta,Pasta & Momos,1,249.0,249.0,Credit Card
+ORD-1179,2026-09-17,18:44,Thursday,18,Paneer Popcorn Makhni Fries,Fries in a Jar,2,209.0,418.0,UPI
+ORD-1179,2026-09-17,18:44,Thursday,18,Cheese Garlic Bread (4 Pcs),Garlic Bread & Chicken,1,159.0,159.0,UPI
+ORD-1180,2026-09-17,13:50,Thursday,13,Double Xero 2-in-1 Classic Shakes,Waffles & Shakes,1,269.0,269.0,UPI
+ORD-1181,2026-09-17,22:34,Thursday,22,Corn N Cheese Momos (8 Pcs),Pasta & Momos,1,199.0,199.0,UPI
+ORD-1182,2026-09-17,21:03,Thursday,21,Paneer Popcorn Makhni Fries,Fries in a Jar,2,209.0,418.0,Cash
+ORD-1182,2026-09-17,21:03,Thursday,21,Avengers Aloo Patty Slider,Sliders & Burgers,1,239.0,239.0,Cash
+ORD-1183,2026-09-17,21:24,Thursday,21,Fresh Vegetable Momos (8 Pcs),Pasta & Momos,1,199.0,199.0,UPI
+ORD-1183,2026-09-17,21:24,Thursday,21,Avengers Aloo Patty Slider,Sliders & Burgers,1,239.0,239.0,UPI
+ORD-1184,2026-09-17,12:27,Thursday,12,Hot & Spicy Chicken Wings (4 Pcs),Garlic Bread & Chicken,1,189.0,189.0,UPI
+ORD-1184,2026-09-17,12:27,Thursday,12,Green Goblin Sandwich,Wraps & Sandwiches,1,199.0,199.0,UPI
+ORD-1185,2026-09-17,19:19,Thursday,19,Butter Chicken Pizza,Pizzas,1,299.0,299.0,UPI
+ORD-1185,2026-09-17,19:19,Thursday,19,Paneer Kebab Wrap,Wraps & Sandwiches,3,179.0,537.0,UPI
+ORD-1186,2026-09-17,19:27,Thursday,19,Nutella Oreo Waffle Jar,Waffles & Shakes,1,229.0,229.0,UPI
+ORD-1186,2026-09-17,19:27,Thursday,19,Butter Chicken Cheesy Fries,Fries in a Jar,2,229.0,458.0,UPI
+ORD-1186,2026-09-17,19:27,Thursday,19,Mac & Cheese Classic,Pasta & Momos,1,249.0,249.0,UPI
+ORD-1186,2026-09-17,19:27,Thursday,19,Harry Potter Veg Slider,Sliders & Burgers,1,219.0,219.0,UPI
+ORD-1186,2026-09-17,19:27,Thursday,19,Crispy Chicken Strips (6 Pcs),Garlic Bread & Chicken,1,139.0,139.0,UPI
+ORD-1187,2026-09-17,12:04,Thursday,12,Paneer Zinger Burger,Sliders & Burgers,1,189.0,189.0,UPI
+ORD-1187,2026-09-17,12:04,Thursday,12,Double Xero 2-in-1 Premium Shakes,Waffles & Shakes,1,309.0,309.0,UPI
+ORD-1188,2026-09-17,18:23,Thursday,18,Arabiata Spicy Pasta,Pasta & Momos,1,249.0,249.0,UPI
+ORD-1188,2026-09-17,18:23,Thursday,18,Juicy Lucy Sandwich,Wraps & Sandwiches,1,219.0,219.0,UPI
+ORD-1188,2026-09-17,18:23,Thursday,18,Animal Crispy Chicken Slider,Sliders & Burgers,1,259.0,259.0,UPI
+ORD-1189,2026-09-18,20:31,Friday,20,Paneer Popcorn Makhni Fries,Fries in a Jar,1,209.0,209.0,UPI
+ORD-1189,2026-09-18,20:31,Friday,20,Hot & Spicy Chicken Wings (4 Pcs),Garlic Bread & Chicken,1,189.0,189.0,UPI
+ORD-1189,2026-09-18,20:31,Friday,20,Fresh Vegetable Momos (8 Pcs),Pasta & Momos,3,199.0,597.0,UPI
+ORD-1189,2026-09-18,20:31,Friday,20,Chicken Dominator Pizza,Pizzas,1,279.0,279.0,UPI
+ORD-1190,2026-09-18,13:04,Friday,13,Paneer Kebab Wrap,Wraps & Sandwiches,2,179.0,358.0,UPI
+ORD-1190,2026-09-18,13:04,Friday,13,Butter Chicken Cheesy Fries,Fries in a Jar,1,229.0,229.0,UPI
+ORD-1190,2026-09-18,13:04,Friday,13,Mac & Cheese Classic,Pasta & Momos,1,249.0,249.0,UPI
+ORD-1191,2026-09-18,12:34,Friday,12,Cheesy Margherita Pizza,Pizzas,1,219.0,219.0,UPI
+ORD-1192,2026-09-18,20:11,Friday,20,Paneer Popcorn Makhni Fries,Fries in a Jar,1,209.0,209.0,Credit Card
+ORD-1192,2026-09-18,20:11,Friday,20,Peri Peri Delight Pizza,Pizzas,1,249.0,249.0,Credit Card
+ORD-1192,2026-09-18,20:11,Friday,20,Cheesy Margherita Pizza,Pizzas,1,219.0,219.0,Credit Card
+ORD-1193,2026-09-18,18:51,Friday,18,Double Xero 2-in-1 Classic Shakes,Waffles & Shakes,1,269.0,269.0,Debit Card
+ORD-1194,2026-09-18,18:45,Friday,18,Hot & Spicy Chicken Wings (4 Pcs),Garlic Bread & Chicken,3,189.0,567.0,Credit Card
+ORD-1194,2026-09-18,18:45,Friday,18,Crunchy Chicken Poppers,Garlic Bread & Chicken,1,179.0,179.0,Credit Card
+ORD-1194,2026-09-18,18:45,Friday,18,Chicken & Cheese Fries,Fries in a Jar,1,219.0,219.0,Credit Card
+ORD-1195,2026-09-18,19:22,Friday,19,Alfredo Penne Pasta,Pasta & Momos,1,249.0,249.0,UPI
+ORD-1195,2026-09-18,19:22,Friday,19,Arabiata Spicy Pasta,Pasta & Momos,2,249.0,498.0,UPI
+ORD-1195,2026-09-18,19:22,Friday,19,Hot & Spicy Chicken Wings (4 Pcs),Garlic Bread & Chicken,1,189.0,189.0,UPI
+ORD-1195,2026-09-18,19:22,Friday,19,Paneer Popcorn Makhni Fries,Fries in a Jar,1,209.0,209.0,UPI
+ORD-1196,2026-09-18,17:10,Friday,17,Paneer Zinger Burger,Sliders & Burgers,2,189.0,378.0,UPI
+ORD-1196,2026-09-18,17:10,Friday,17,Classic Choco Fudge Waffle,Waffles & Shakes,1,209.0,209.0,UPI
+ORD-1196,2026-09-18,17:10,Friday,17,Double Xero 2-in-1 Premium Shakes,Waffles & Shakes,1,309.0,309.0,UPI
+ORD-1197,2026-09-18,19:08,Friday,19,Butter Chicken Cheesy Fries,Fries in a Jar,1,229.0,229.0,Credit Card
+ORD-1197,2026-09-18,19:08,Friday,19,Corn N Cheese Momos (8 Pcs),Pasta & Momos,1,199.0,199.0,Credit Card
+ORD-1197,2026-09-18,19:08,Friday,19,Pink Sauce Penne Pasta,Pasta & Momos,1,249.0,249.0,Credit Card
+ORD-1198,2026-09-18,21:21,Friday,21,Crunchy Chicken Poppers,Garlic Bread & Chicken,1,179.0,179.0,Cash
+ORD-1198,2026-09-18,21:21,Friday,21,Pizza Fries,Fries in a Jar,2,179.0,358.0,Cash
+ORD-1199,2026-09-18,19:49,Friday,19,Pizza Fries,Fries in a Jar,1,179.0,179.0,UPI
+ORD-1199,2026-09-18,19:49,Friday,19,Double Xero 2-in-1 Classic Shakes,Waffles & Shakes,1,269.0,269.0,UPI
+ORD-1199,2026-09-18,19:49,Friday,19,Alfredo Penne Pasta,Pasta & Momos,1,249.0,249.0,UPI
+ORD-1200,2026-09-18,20:25,Friday,20,Chicken & Cheese Fries,Fries in a Jar,1,219.0,219.0,UPI
+ORD-1201,2026-09-18,18:13,Friday,18,Pizza Pockets (4 Pcs),Garlic Bread & Chicken,1,149.0,149.0,UPI
+ORD-1202,2026-09-18,22:22,Friday,22,Avengers Aloo Patty Slider,Sliders & Burgers,1,239.0,239.0,Debit Card
+ORD-1203,2026-09-18,17:29,Friday,17,Cheesy Margherita Pizza,Pizzas,2,219.0,438.0,UPI
+ORD-1203,2026-09-18,17:29,Friday,17,Chicken & Cheese Fries,Fries in a Jar,2,219.0,438.0,UPI
+ORD-1204,2026-09-18,18:55,Friday,18,Classic Choco Fudge Waffle,Waffles & Shakes,3,209.0,627.0,Cash
+ORD-1204,2026-09-18,18:55,Friday,18,Cheese Garlic Bread (4 Pcs),Garlic Bread & Chicken,1,159.0,159.0,Cash
+ORD-1204,2026-09-18,18:55,Friday,18,Butter Chicken Pizza,Pizzas,2,299.0,598.0,Cash
+ORD-1204,2026-09-18,18:55,Friday,18,Cheesy Margherita Pizza,Pizzas,1,219.0,219.0,Cash
+ORD-1205,2026-09-18,13:25,Friday,13,Veggie Affair Pizza,Pizzas,1,239.0,239.0,UPI
+ORD-1205,2026-09-18,13:25,Friday,13,Paneer Zinger Burger,Sliders & Burgers,2,189.0,378.0,UPI
+ORD-1205,2026-09-18,13:25,Friday,13,Pizza Fries,Fries in a Jar,1,179.0,179.0,UPI
+ORD-1206,2026-09-18,18:34,Friday,18,Paneer Popcorn Makhni Fries,Fries in a Jar,1,209.0,209.0,UPI
+ORD-1207,2026-09-19,18:25,Saturday,18,Arabiata Spicy Pasta,Pasta & Momos,1,249.0,249.0,UPI
+ORD-1207,2026-09-19,18:25,Saturday,18,Peri Peri Delight Pizza,Pizzas,1,249.0,249.0,UPI
+ORD-1208,2026-09-19,19:48,Saturday,19,Mac & Cheese Classic,Pasta & Momos,1,249.0,249.0,UPI
+ORD-1208,2026-09-19,19:48,Saturday,19,Pink Sauce Penne Pasta,Pasta & Momos,3,249.0,747.0,UPI
+ORD-1208,2026-09-19,19:48,Saturday,19,Paneer Popcorn Makhni Fries,Fries in a Jar,1,209.0,209.0,UPI
+ORD-1208,2026-09-19,19:48,Saturday,19,Butter Chicken Cheesy Fries,Fries in a Jar,1,229.0,229.0,UPI
+ORD-1209,2026-09-19,13:38,Saturday,13,Pizza Fries,Fries in a Jar,1,179.0,179.0,UPI
+ORD-1209,2026-09-19,13:38,Saturday,13,Paneer Popcorn Makhni Fries,Fries in a Jar,1,209.0,209.0,UPI
+ORD-1210,2026-09-19,18:38,Saturday,18,Classic Choco Fudge Waffle,Waffles & Shakes,1,209.0,209.0,Cash
+ORD-1211,2026-09-19,18:39,Saturday,18,Paneer Zinger Burger,Sliders & Burgers,1,189.0,189.0,Credit Card
+ORD-1211,2026-09-19,18:39,Saturday,18,Crunchy Chicken Poppers,Garlic Bread & Chicken,1,179.0,179.0,Credit Card
+ORD-1212,2026-09-19,17:52,Saturday,17,Classic Salted Fries,Fries in a Jar,1,149.0,149.0,UPI
+ORD-1212,2026-09-19,17:52,Saturday,17,Bahubali Grilled Patty Slider,Sliders & Burgers,2,259.0,518.0,UPI
+ORD-1213,2026-09-19,21:40,Saturday,21,Nutella Oreo Waffle Jar,Waffles & Shakes,1,229.0,229.0,UPI
+ORD-1213,2026-09-19,21:40,Saturday,21,Hot & Spicy Chicken Wings (4 Pcs),Garlic Bread & Chicken,1,189.0,189.0,UPI
+ORD-1214,2026-09-19,20:37,Saturday,20,Cheese Garlic Bread (4 Pcs),Garlic Bread & Chicken,1,159.0,159.0,UPI
+ORD-1214,2026-09-19,20:37,Saturday,20,Hot & Spicy Chicken Wings (4 Pcs),Garlic Bread & Chicken,1,189.0,189.0,UPI
+ORD-1214,2026-09-19,20:37,Saturday,20,Avengers Aloo Patty Slider,Sliders & Burgers,1,239.0,239.0,UPI
+ORD-1215,2026-09-19,20:12,Saturday,20,Cheesy Margherita Pizza,Pizzas,1,219.0,219.0,UPI
+ORD-1215,2026-09-19,20:12,Saturday,20,Fresh Vegetable Momos (8 Pcs),Pasta & Momos,1,199.0,199.0,UPI
+ORD-1216,2026-09-19,21:55,Saturday,21,Fresh Vegetable Momos (8 Pcs),Pasta & Momos,3,199.0,597.0,Cash
+ORD-1216,2026-09-19,21:55,Saturday,21,Chicken Tikka Sandwich,Wraps & Sandwiches,1,209.0,209.0,Cash
+ORD-1216,2026-09-19,21:55,Saturday,21,Alfredo Penne Pasta,Pasta & Momos,1,249.0,249.0,Cash
+ORD-1217,2026-09-19,21:29,Saturday,21,Harry Potter Veg Slider,Sliders & Burgers,1,219.0,219.0,Cash
+ORD-1217,2026-09-19,21:29,Saturday,21,Hot & Spicy Chicken Wings (4 Pcs),Garlic Bread & Chicken,1,189.0,189.0,Cash
+ORD-1218,2026-09-19,20:39,Saturday,20,Pizza In A Jar (Non-Veg),Pizzas,1,189.0,189.0,UPI
+ORD-1218,2026-09-19,20:39,Saturday,20,Super Veggie Burger,Sliders & Burgers,1,169.0,169.0,UPI
+ORD-1218,2026-09-19,20:39,Saturday,20,Classic Choco Fudge Waffle,Waffles & Shakes,1,209.0,209.0,UPI
+ORD-1218,2026-09-19,20:39,Saturday,20,Hot Chocolate Brownie Waffle,Waffles & Shakes,1,219.0,219.0,UPI
+ORD-1218,2026-09-19,20:39,Saturday,20,Hot & Spicy Chicken Wings (4 Pcs),Garlic Bread & Chicken,1,189.0,189.0,UPI
+ORD-1219,2026-09-19,21:46,Saturday,21,Chicken Steamed Momos (8 Pcs),Pasta & Momos,1,229.0,229.0,UPI
+ORD-1220,2026-09-19,22:52,Saturday,22,Cheesy Margherita Pizza,Pizzas,1,219.0,219.0,UPI
+ORD-1220,2026-09-19,22:52,Saturday,22,Pizza Fries,Fries in a Jar,2,179.0,358.0,UPI
+ORD-1220,2026-09-19,22:52,Saturday,22,Nutella Oreo Waffle Jar,Waffles & Shakes,1,229.0,229.0,UPI
+ORD-1221,2026-09-19,20:13,Saturday,20,Classic Choco Fudge Waffle,Waffles & Shakes,1,209.0,209.0,UPI
+ORD-1221,2026-09-19,20:13,Saturday,20,Fresh Vegetable Momos (8 Pcs),Pasta & Momos,1,199.0,199.0,UPI
+ORD-1221,2026-09-19,20:13,Saturday,20,Cheesy Margherita Pizza,Pizzas,1,219.0,219.0,UPI
+ORD-1222,2026-09-19,19:33,Saturday,19,Butter Chicken Cheesy Fries,Fries in a Jar,1,229.0,229.0,UPI
+ORD-1222,2026-09-19,19:33,Saturday,19,Chicken Zinger Burger,Sliders & Burgers,1,209.0,209.0,UPI
+ORD-1223,2026-09-19,13:35,Saturday,13,Pink Sauce Penne Pasta,Pasta & Momos,2,249.0,498.0,Debit Card
+ORD-1224,2026-09-19,18:41,Saturday,18,Chicken Zinger Burger,Sliders & Burgers,1,209.0,209.0,UPI
+ORD-1224,2026-09-19,18:41,Saturday,18,Corn N Cheese Momos (8 Pcs),Pasta & Momos,1,199.0,199.0,UPI
+ORD-1224,2026-09-19,18:41,Saturday,18,Double Xero 2-in-1 Premium Shakes,Waffles & Shakes,2,309.0,618.0,UPI
+ORD-1224,2026-09-19,18:41,Saturday,18,Butter Chicken Cheesy Fries,Fries in a Jar,2,229.0,458.0,UPI
+ORD-1224,2026-09-19,18:41,Saturday,18,Arabiata Spicy Pasta,Pasta & Momos,1,249.0,249.0,UPI
+ORD-1225,2026-09-20,21:11,Sunday,21,Crispy Onion Rings (8 Pcs),Garlic Bread & Chicken,1,139.0,139.0,Cash
+ORD-1226,2026-09-20,14:47,Sunday,14,Crunchy Chicken Poppers,Garlic Bread & Chicken,1,179.0,179.0,Debit Card
+ORD-1226,2026-09-20,14:47,Sunday,14,Peri Peri Cheesy Fries,Fries in a Jar,3,199.0,597.0,Debit Card
+ORD-1226,2026-09-20,14:47,Sunday,14,Chicken Tikka Sandwich,Wraps & Sandwiches,1,209.0,209.0,Debit Card
+ORD-1227,2026-09-20,22:34,Sunday,22,Paneer Popcorn Makhni Fries,Fries in a Jar,1,209.0,209.0,UPI
+ORD-1227,2026-09-20,22:34,Sunday,22,Chicken Tikka Sandwich,Wraps & Sandwiches,1,209.0,209.0,UPI
+ORD-1227,2026-09-20,22:34,Sunday,22,Pizza In A Jar (Veg),Pizzas,1,179.0,179.0,UPI
+ORD-1227,2026-09-20,22:34,Sunday,22,Crispy Chicken Strips (6 Pcs),Garlic Bread & Chicken,1,139.0,139.0,UPI
+ORD-1228,2026-09-20,12:21,Sunday,12,Fresh Vegetable Momos (8 Pcs),Pasta & Momos,2,199.0,398.0,Credit Card
+ORD-1228,2026-09-20,12:21,Sunday,12,Butter Chicken Pizza,Pizzas,2,299.0,598.0,Credit Card
+ORD-1229,2026-09-20,20:32,Sunday,20,Butter Chicken Cheesy Fries,Fries in a Jar,1,229.0,229.0,UPI
+ORD-1229,2026-09-20,20:32,Sunday,20,Hot Chocolate Brownie Waffle,Waffles & Shakes,2,219.0,438.0,UPI
+ORD-1230,2026-09-20,11:24,Sunday,11,Double Xero 2-in-1 Premium Shakes,Waffles & Shakes,1,309.0,309.0,UPI
+ORD-1230,2026-09-20,11:24,Sunday,11,Super Veggie Burger,Sliders & Burgers,1,169.0,169.0,UPI
+ORD-1231,2026-09-20,19:44,Sunday,19,Chicken Seekh Wrap,Wraps & Sandwiches,2,219.0,438.0,UPI
+ORD-1231,2026-09-20,19:44,Sunday,19,Cheesy Margherita Pizza,Pizzas,2,219.0,438.0,UPI
+ORD-1231,2026-09-20,19:44,Sunday,19,Chicken Steamed Momos (8 Pcs),Pasta & Momos,1,229.0,229.0,UPI
+ORD-1232,2026-09-20,20:40,Sunday,20,Pink Sauce Penne Pasta,Pasta & Momos,1,249.0,249.0,Cash
+ORD-1232,2026-09-20,20:40,Sunday,20,Chicken Dominator Pizza,Pizzas,1,279.0,279.0,Cash
+ORD-1233,2026-09-20,20:38,Sunday,20,Double Xero 2-in-1 Premium Shakes,Waffles & Shakes,1,309.0,309.0,UPI
+ORD-1233,2026-09-20,20:38,Sunday,20,Hot & Spicy Chicken Wings (4 Pcs),Garlic Bread & Chicken,1,189.0,189.0,UPI
+ORD-1233,2026-09-20,20:38,Sunday,20,Crispy Chicken Strips (6 Pcs),Garlic Bread & Chicken,1,139.0,139.0,UPI
+ORD-1234,2026-09-20,19:50,Sunday,19,Fresh Vegetable Momos (8 Pcs),Pasta & Momos,1,199.0,199.0,UPI
+ORD-1234,2026-09-20,19:50,Sunday,19,Butter Chicken Cheesy Fries,Fries in a Jar,1,229.0,229.0,UPI
+ORD-1235,2026-09-20,19:32,Sunday,19,Butter Chicken Pizza,Pizzas,1,299.0,299.0,UPI
+ORD-1235,2026-09-20,19:32,Sunday,19,Pizza Pockets (4 Pcs),Garlic Bread & Chicken,1,149.0,149.0,UPI
+ORD-1235,2026-09-20,19:32,Sunday,19,Paneer Kebab Wrap,Wraps & Sandwiches,1,179.0,179.0,UPI
+ORD-1236,2026-09-20,21:28,Sunday,21,Chicken Tikka Sandwich,Wraps & Sandwiches,1,209.0,209.0,Cash
+ORD-1236,2026-09-20,21:28,Sunday,21,Chicken Seekh Wrap,Wraps & Sandwiches,1,219.0,219.0,Cash
+ORD-1237,2026-09-20,20:46,Sunday,20,Peri Peri Cheesy Fries,Fries in a Jar,1,199.0,199.0,UPI
+ORD-1237,2026-09-20,20:46,Sunday,20,Chicken Dominator Pizza,Pizzas,1,279.0,279.0,UPI
+ORD-1238,2026-09-20,20:34,Sunday,20,Chicken & Cheese Fries,Fries in a Jar,1,219.0,219.0,Debit Card
+ORD-1238,2026-09-20,20:34,Sunday,20,Classic Choco Fudge Waffle,Waffles & Shakes,1,209.0,209.0,Debit Card
+ORD-1238,2026-09-20,20:34,Sunday,20,Pizza Fries,Fries in a Jar,3,179.0,537.0,Debit Card
+ORD-1238,2026-09-20,20:34,Sunday,20,Animal Crispy Chicken Slider,Sliders & Burgers,1,259.0,259.0,Debit Card
+ORD-1239,2026-09-20,18:57,Sunday,18,Double Xero 2-in-1 Premium Shakes,Waffles & Shakes,1,309.0,309.0,UPI
+ORD-1239,2026-09-20,18:57,Sunday,18,Avengers Aloo Patty Slider,Sliders & Burgers,1,239.0,239.0,UPI
+ORD-1239,2026-09-20,18:57,Sunday,18,Chicken Steamed Momos (8 Pcs),Pasta & Momos,2,229.0,458.0,UPI
+ORD-1240,2026-09-21,13:34,Monday,13,Classic Choco Fudge Waffle,Waffles & Shakes,1,209.0,209.0,UPI
+ORD-1241,2026-09-21,20:19,Monday,20,Bahubali Grilled Patty Slider,Sliders & Burgers,1,259.0,259.0,UPI
+ORD-1241,2026-09-21,20:19,Monday,20,Avengers Aloo Patty Slider,Sliders & Burgers,1,239.0,239.0,UPI
+ORD-1241,2026-09-21,20:19,Monday,20,Chicken Dominator Pizza,Pizzas,1,279.0,279.0,UPI
+ORD-1242,2026-09-21,21:48,Monday,21,Bahubali Grilled Patty Slider,Sliders & Burgers,1,259.0,259.0,UPI
+ORD-1242,2026-09-21,21:48,Monday,21,Hot & Spicy Chicken Wings (4 Pcs),Garlic Bread & Chicken,1,189.0,189.0,UPI
+ORD-1242,2026-09-21,21:48,Monday,21,Double Xero 2-in-1 Classic Shakes,Waffles & Shakes,1,269.0,269.0,UPI
+ORD-1242,2026-09-21,21:48,Monday,21,Peri Peri Cheesy Fries,Fries in a Jar,1,199.0,199.0,UPI
+ORD-1243,2026-09-21,20:03,Monday,20,Paneer Kebab Wrap,Wraps & Sandwiches,1,179.0,179.0,UPI
+ORD-1244,2026-09-21,20:49,Monday,20,Pizza In A Jar (Non-Veg),Pizzas,1,189.0,189.0,UPI
+ORD-1244,2026-09-21,20:49,Monday,20,Crunchy Chicken Poppers,Garlic Bread & Chicken,1,179.0,179.0,UPI
+ORD-1244,2026-09-21,20:49,Monday,20,Cheese Garlic Bread (4 Pcs),Garlic Bread & Chicken,1,159.0,159.0,UPI
+ORD-1245,2026-09-21,16:19,Monday,16,Juicy Lucy Sandwich,Wraps & Sandwiches,1,219.0,219.0,Cash
+ORD-1245,2026-09-21,16:19,Monday,16,Bahubali Grilled Patty Slider,Sliders & Burgers,1,259.0,259.0,Cash
+ORD-1245,2026-09-21,16:19,Monday,16,Pizza In A Jar (Non-Veg),Pizzas,1,189.0,189.0,Cash
+ORD-1245,2026-09-21,16:19,Monday,16,Alfredo Penne Pasta,Pasta & Momos,1,249.0,249.0,Cash
+ORD-1245,2026-09-21,16:19,Monday,16,Pink Sauce Penne Pasta,Pasta & Momos,1,249.0,249.0,Cash
+ORD-1246,2026-09-21,17:41,Monday,17,Chicken Zinger Burger,Sliders & Burgers,1,209.0,209.0,Credit Card
+ORD-1246,2026-09-21,17:41,Monday,17,Bahubali Grilled Patty Slider,Sliders & Burgers,1,259.0,259.0,Credit Card
+ORD-1246,2026-09-21,17:41,Monday,17,Cheesy Margherita Pizza,Pizzas,1,219.0,219.0,Credit Card
+ORD-1247,2026-09-22,20:19,Tuesday,20,Chicken Seekh Wrap,Wraps & Sandwiches,1,219.0,219.0,Cash
+ORD-1248,2026-09-22,18:26,Tuesday,18,Veggie Affair Pizza,Pizzas,1,239.0,239.0,UPI
+ORD-1249,2026-09-22,19:59,Tuesday,19,Juicy Lucy Sandwich,Wraps & Sandwiches,1,219.0,219.0,UPI
+ORD-1249,2026-09-22,19:59,Tuesday,19,Crunchy Chicken Poppers,Garlic Bread & Chicken,1,179.0,179.0,UPI
+ORD-1250,2026-09-22,19:02,Tuesday,19,Hot & Spicy Chicken Wings (4 Pcs),Garlic Bread & Chicken,1,189.0,189.0,Cash
+ORD-1250,2026-09-22,19:02,Tuesday,19,Cheese Garlic Bread (4 Pcs),Garlic Bread & Chicken,1,159.0,159.0,Cash
+ORD-1251,2026-09-22,21:21,Tuesday,21,Chicken Dominator Pizza,Pizzas,1,279.0,279.0,UPI
+ORD-1251,2026-09-22,21:21,Tuesday,21,Butter Chicken Pizza,Pizzas,2,299.0,598.0,UPI
+ORD-1251,2026-09-22,21:21,Tuesday,21,Chicken N Cheese Garlic Bread,Garlic Bread & Chicken,2,199.0,398.0,UPI
+ORD-1252,2026-09-22,20:25,Tuesday,20,Hot & Spicy Chicken Wings (4 Pcs),Garlic Bread & Chicken,1,189.0,189.0,Cash
+ORD-1252,2026-09-22,20:25,Tuesday,20,Avengers Aloo Patty Slider,Sliders & Burgers,1,239.0,239.0,Cash
+ORD-1252,2026-09-22,20:25,Tuesday,20,Juicy Lucy Sandwich,Wraps & Sandwiches,1,219.0,219.0,Cash
+ORD-1253,2026-09-22,18:06,Tuesday,18,Hot & Spicy Chicken Wings (4 Pcs),Garlic Bread & Chicken,1,189.0,189.0,Cash
+ORD-1253,2026-09-22,18:06,Tuesday,18,Chicken Zinger Burger,Sliders & Burgers,1,209.0,209.0,Cash
+ORD-1253,2026-09-22,18:06,Tuesday,18,Peri Peri Delight Pizza,Pizzas,2,249.0,498.0,Cash
+ORD-1254,2026-09-23,20:01,Wednesday,20,Arabiata Spicy Pasta,Pasta & Momos,1,249.0,249.0,UPI
+ORD-1254,2026-09-23,20:01,Wednesday,20,Bahubali Grilled Patty Slider,Sliders & Burgers,1,259.0,259.0,UPI
+ORD-1254,2026-09-23,20:01,Wednesday,20,Cheesy Margherita Pizza,Pizzas,1,219.0,219.0,UPI
+ORD-1254,2026-09-23,20:01,Wednesday,20,Chicken Zinger Burger,Sliders & Burgers,1,209.0,209.0,UPI
+ORD-1255,2026-09-23,19:16,Wednesday,19,Cheese Garlic Bread (4 Pcs),Garlic Bread & Chicken,1,159.0,159.0,Credit Card
+ORD-1255,2026-09-23,19:16,Wednesday,19,Chicken N Cheese Garlic Bread,Garlic Bread & Chicken,1,199.0,199.0,Credit Card
+ORD-1256,2026-09-23,17:08,Wednesday,17,Double Xero 2-in-1 Premium Shakes,Waffles & Shakes,1,309.0,309.0,Credit Card
+ORD-1256,2026-09-23,17:08,Wednesday,17,Alfredo Penne Pasta,Pasta & Momos,1,249.0,249.0,Credit Card
+ORD-1257,2026-09-23,12:54,Wednesday,12,Pizza Fries,Fries in a Jar,1,179.0,179.0,UPI
+ORD-1257,2026-09-23,12:54,Wednesday,12,Peri Peri Cheesy Fries,Fries in a Jar,1,199.0,199.0,UPI
+ORD-1258,2026-09-23,12:09,Wednesday,12,Harry Potter Veg Slider,Sliders & Burgers,1,219.0,219.0,UPI
+ORD-1258,2026-09-23,12:09,Wednesday,12,Alfredo Penne Pasta,Pasta & Momos,1,249.0,249.0,UPI
+ORD-1259,2026-09-23,18:31,Wednesday,18,Bahubali Grilled Patty Slider,Sliders & Burgers,1,259.0,259.0,UPI
+ORD-1259,2026-09-23,18:31,Wednesday,18,Peri Peri Cheesy Fries,Fries in a Jar,1,199.0,199.0,UPI
+ORD-1259,2026-09-23,18:31,Wednesday,18,Cheese Garlic Bread (4 Pcs),Garlic Bread & Chicken,1,159.0,159.0,UPI
+ORD-1260,2026-09-23,19:27,Wednesday,19,Classic Salted Fries,Fries in a Jar,1,149.0,149.0,Cash
+ORD-1260,2026-09-23,19:27,Wednesday,19,Butter Chicken Cheesy Fries,Fries in a Jar,1,229.0,229.0,Cash
+ORD-1260,2026-09-23,19:27,Wednesday,19,Cheesy Margherita Pizza,Pizzas,1,219.0,219.0,Cash
+ORD-1260,2026-09-23,19:27,Wednesday,19,Peri Peri Delight Pizza,Pizzas,1,249.0,249.0,Cash
+ORD-1261,2026-09-24,17:25,Thursday,17,Fresh Vegetable Momos (8 Pcs),Pasta & Momos,1,199.0,199.0,UPI
+ORD-1261,2026-09-24,17:25,Thursday,17,Super Veggie Burger,Sliders & Burgers,1,169.0,169.0,UPI
+ORD-1262,2026-09-24,22:41,Thursday,22,Avengers Aloo Patty Slider,Sliders & Burgers,1,239.0,239.0,Credit Card
+ORD-1263,2026-09-24,12:00,Thursday,12,Crispy Chicken Strips (6 Pcs),Garlic Bread & Chicken,1,139.0,139.0,Credit Card
+ORD-1264,2026-09-24,16:54,Thursday,16,Double Xero 2-in-1 Premium Shakes,Waffles & Shakes,2,309.0,618.0,Debit Card
+ORD-1264,2026-09-24,16:54,Thursday,16,Chicken Dominator Pizza,Pizzas,1,279.0,279.0,Debit Card
+ORD-1264,2026-09-24,16:54,Thursday,16,Fresh Vegetable Momos (8 Pcs),Pasta & Momos,2,199.0,398.0,Debit Card
+ORD-1265,2026-09-24,19:17,Thursday,19,Pizza Fries,Fries in a Jar,2,179.0,358.0,Cash
+ORD-1265,2026-09-24,19:17,Thursday,19,Classic Choco Fudge Waffle,Waffles & Shakes,1,209.0,209.0,Cash
+ORD-1265,2026-09-24,19:17,Thursday,19,Chicken Zinger Burger,Sliders & Burgers,1,209.0,209.0,Cash
+ORD-1266,2026-09-24,20:25,Thursday,20,Alfredo Penne Pasta,Pasta & Momos,3,249.0,747.0,Cash
+ORD-1267,2026-09-24,19:34,Thursday,19,Cheesy Margherita Pizza,Pizzas,1,219.0,219.0,UPI
+ORD-1267,2026-09-24,19:34,Thursday,19,Hot Chocolate Brownie Waffle,Waffles & Shakes,3,219.0,657.0,UPI
+ORD-1267,2026-09-24,19:34,Thursday,19,Cheese Garlic Bread (4 Pcs),Garlic Bread & Chicken,1,159.0,159.0,UPI
+ORD-1268,2026-09-24,18:53,Thursday,18,Pink Sauce Penne Pasta,Pasta & Momos,2,249.0,498.0,UPI
+ORD-1268,2026-09-24,18:53,Thursday,18,Nutella Oreo Waffle Jar,Waffles & Shakes,1,229.0,229.0,UPI
+ORD-1269,2026-09-24,20:28,Thursday,20,Classic Choco Fudge Waffle,Waffles & Shakes,1,209.0,209.0,UPI
+ORD-1269,2026-09-24,20:28,Thursday,20,Bahubali Grilled Patty Slider,Sliders & Burgers,1,259.0,259.0,UPI
+ORD-1270,2026-09-24,12:39,Thursday,12,Chicken & Cheese Fries,Fries in a Jar,1,219.0,219.0,UPI
+ORD-1271,2026-09-25,18:50,Friday,18,Chicken Zinger Burger,Sliders & Burgers,1,209.0,209.0,Credit Card
+ORD-1271,2026-09-25,18:50,Friday,18,Classic Salted Fries,Fries in a Jar,1,149.0,149.0,Credit Card
+ORD-1271,2026-09-25,18:50,Friday,18,Peri Peri Cheesy Fries,Fries in a Jar,1,199.0,199.0,Credit Card
+ORD-1272,2026-09-25,13:11,Friday,13,Peri-Peri Chicken Wrap,Wraps & Sandwiches,1,219.0,219.0,UPI
+ORD-1272,2026-09-25,13:11,Friday,13,Classic Salted Fries,Fries in a Jar,1,149.0,149.0,UPI
+ORD-1273,2026-09-25,19:50,Friday,19,Pizza In A Jar (Non-Veg),Pizzas,1,189.0,189.0,UPI
+ORD-1273,2026-09-25,19:50,Friday,19,Animal Crispy Chicken Slider,Sliders & Burgers,2,259.0,518.0,UPI
+ORD-1274,2026-09-25,21:15,Friday,21,Avengers Aloo Patty Slider,Sliders & Burgers,1,239.0,239.0,UPI
+ORD-1274,2026-09-25,21:15,Friday,21,Cheesy Margherita Pizza,Pizzas,1,219.0,219.0,UPI
+ORD-1275,2026-09-25,12:27,Friday,12,Cheese Garlic Bread (4 Pcs),Garlic Bread & Chicken,1,159.0,159.0,UPI
+ORD-1276,2026-09-25,21:46,Friday,21,Peri Peri Delight Pizza,Pizzas,2,249.0,498.0,Credit Card
+ORD-1276,2026-09-25,21:46,Friday,21,Classic Salted Fries,Fries in a Jar,1,149.0,149.0,Credit Card
+ORD-1276,2026-09-25,21:46,Friday,21,Super Veggie Burger,Sliders & Burgers,1,169.0,169.0,Credit Card
+ORD-1277,2026-09-25,20:21,Friday,20,Crunchy Chicken Poppers,Garlic Bread & Chicken,1,179.0,179.0,UPI
+ORD-1277,2026-09-25,20:21,Friday,20,Corn N Cheese Momos (8 Pcs),Pasta & Momos,1,199.0,199.0,UPI
+ORD-1278,2026-09-25,19:44,Friday,19,Nutella Oreo Waffle Jar,Waffles & Shakes,2,229.0,458.0,UPI
+ORD-1279,2026-09-25,20:31,Friday,20,Chicken Zinger Burger,Sliders & Burgers,1,209.0,209.0,Debit Card
+ORD-1279,2026-09-25,20:31,Friday,20,Pizza In A Jar (Non-Veg),Pizzas,2,189.0,378.0,Debit Card
+ORD-1279,2026-09-25,20:31,Friday,20,Crispy Chicken Strips (6 Pcs),Garlic Bread & Chicken,1,139.0,139.0,Debit Card
+ORD-1280,2026-09-25,22:11,Friday,22,Nutella Oreo Waffle Jar,Waffles & Shakes,1,229.0,229.0,Credit Card
+ORD-1280,2026-09-25,22:11,Friday,22,Chicken Seekh Wrap,Wraps & Sandwiches,1,219.0,219.0,Credit Card
+ORD-1280,2026-09-25,22:11,Friday,22,Cheese Garlic Bread (4 Pcs),Garlic Bread & Chicken,1,159.0,159.0,Credit Card
+ORD-1281,2026-09-25,20:50,Friday,20,Cheesy Margherita Pizza,Pizzas,1,219.0,219.0,Credit Card
+ORD-1281,2026-09-25,20:50,Friday,20,Super Veggie Burger,Sliders & Burgers,1,169.0,169.0,Credit Card
+ORD-1281,2026-09-25,20:50,Friday,20,Veggie Affair Pizza,Pizzas,1,239.0,239.0,Credit Card
+ORD-1282,2026-09-25,18:38,Friday,18,Chicken Tikka Sandwich,Wraps & Sandwiches,1,209.0,209.0,UPI
+ORD-1282,2026-09-25,18:38,Friday,18,Double Xero 2-in-1 Premium Shakes,Waffles & Shakes,1,309.0,309.0,UPI
+ORD-1283,2026-09-25,20:23,Friday,20,Pink Sauce Penne Pasta,Pasta & Momos,1,249.0,249.0,Credit Card
+ORD-1283,2026-09-25,20:23,Friday,20,Double Xero 2-in-1 Premium Shakes,Waffles & Shakes,1,309.0,309.0,Credit Card
+ORD-1283,2026-09-25,20:23,Friday,20,Classic Salted Fries,Fries in a Jar,1,149.0,149.0,Credit Card
+ORD-1283,2026-09-25,20:23,Friday,20,Veggie Affair Pizza,Pizzas,1,239.0,239.0,Credit Card
+ORD-1284,2026-09-25,19:41,Friday,19,Nutella Oreo Waffle Jar,Waffles & Shakes,1,229.0,229.0,UPI
+ORD-1284,2026-09-25,19:41,Friday,19,Bahubali Grilled Patty Slider,Sliders & Burgers,1,259.0,259.0,UPI
+ORD-1284,2026-09-25,19:41,Friday,19,Peri Peri Cheesy Fries,Fries in a Jar,1,199.0,199.0,UPI
+ORD-1285,2026-09-25,19:36,Friday,19,Chicken Seekh Wrap,Wraps & Sandwiches,1,219.0,219.0,UPI
+ORD-1285,2026-09-25,19:36,Friday,19,Chicken Steamed Momos (8 Pcs),Pasta & Momos,1,229.0,229.0,UPI
+ORD-1286,2026-09-25,22:30,Friday,22,Nutella Oreo Waffle Jar,Waffles & Shakes,2,229.0,458.0,UPI
+ORD-1286,2026-09-25,22:30,Friday,22,Classic Salted Fries,Fries in a Jar,1,149.0,149.0,UPI
+ORD-1287,2026-09-25,17:29,Friday,17,Harry Potter Veg Slider,Sliders & Burgers,1,219.0,219.0,Credit Card
+ORD-1287,2026-09-25,17:29,Friday,17,Butter Chicken Cheesy Fries,Fries in a Jar,1,229.0,229.0,Credit Card
+ORD-1287,2026-09-25,17:29,Friday,17,Cheese Garlic Bread (4 Pcs),Garlic Bread & Chicken,1,159.0,159.0,Credit Card
+ORD-1288,2026-09-25,20:01,Friday,20,Chicken Steamed Momos (8 Pcs),Pasta & Momos,1,229.0,229.0,Cash
+ORD-1288,2026-09-25,20:01,Friday,20,Butter Chicken Pizza,Pizzas,1,299.0,299.0,Cash
+ORD-1288,2026-09-25,20:01,Friday,20,Hot Chocolate Brownie Waffle,Waffles & Shakes,1,219.0,219.0,Cash
+ORD-1289,2026-09-26,19:29,Saturday,19,Butter Chicken Pizza,Pizzas,1,299.0,299.0,UPI
+ORD-1289,2026-09-26,19:29,Saturday,19,Corn N Cheese Momos (8 Pcs),Pasta & Momos,1,199.0,199.0,UPI
+ORD-1290,2026-09-26,19:12,Saturday,19,Peri Peri Cheesy Fries,Fries in a Jar,1,199.0,199.0,UPI
+ORD-1290,2026-09-26,19:12,Saturday,19,Chicken Dominator Pizza,Pizzas,1,279.0,279.0,UPI
+ORD-1291,2026-09-26,20:36,Saturday,20,Butter Chicken Pizza,Pizzas,2,299.0,598.0,UPI
+ORD-1291,2026-09-26,20:36,Saturday,20,Chicken Zinger Burger,Sliders & Burgers,1,209.0,209.0,UPI
+ORD-1291,2026-09-26,20:36,Saturday,20,Chicken Seekh Wrap,Wraps & Sandwiches,1,219.0,219.0,UPI
+ORD-1291,2026-09-26,20:36,Saturday,20,Pizza In A Jar (Veg),Pizzas,1,179.0,179.0,UPI
+ORD-1292,2026-09-26,19:37,Saturday,19,Chicken Seekh Wrap,Wraps & Sandwiches,1,219.0,219.0,UPI
+ORD-1292,2026-09-26,19:37,Saturday,19,Butter Chicken Pizza,Pizzas,1,299.0,299.0,UPI
+ORD-1293,2026-09-26,21:37,Saturday,21,Paneer Popcorn Makhni Fries,Fries in a Jar,1,209.0,209.0,UPI
+ORD-1294,2026-09-26,14:44,Saturday,14,Juicy Lucy Sandwich,Wraps & Sandwiches,1,219.0,219.0,UPI
+ORD-1295,2026-09-26,18:31,Saturday,18,Corn N Cheese Momos (8 Pcs),Pasta & Momos,1,199.0,199.0,Credit Card
+ORD-1295,2026-09-26,18:31,Saturday,18,Hot Chocolate Brownie Waffle,Waffles & Shakes,1,219.0,219.0,Credit Card
+ORD-1295,2026-09-26,18:31,Saturday,18,Alfredo Penne Pasta,Pasta & Momos,1,249.0,249.0,Credit Card
+ORD-1296,2026-09-26,18:03,Saturday,18,Peri-Peri Chicken Wrap,Wraps & Sandwiches,1,219.0,219.0,Cash
+ORD-1296,2026-09-26,18:03,Saturday,18,Peri Peri Delight Pizza,Pizzas,1,249.0,249.0,Cash
+ORD-1296,2026-09-26,18:03,Saturday,18,Avengers Aloo Patty Slider,Sliders & Burgers,1,239.0,239.0,Cash
+ORD-1296,2026-09-26,18:03,Saturday,18,Alfredo Penne Pasta,Pasta & Momos,1,249.0,249.0,Cash
+ORD-1296,2026-09-26,18:03,Saturday,18,Corn N Cheese Momos (8 Pcs),Pasta & Momos,1,199.0,199.0,Cash
+ORD-1297,2026-09-26,19:50,Saturday,19,Pizza In A Jar (Non-Veg),Pizzas,1,189.0,189.0,Credit Card
+ORD-1297,2026-09-26,19:50,Saturday,19,Juicy Lucy Sandwich,Wraps & Sandwiches,1,219.0,219.0,Credit Card
+ORD-1298,2026-09-26,20:49,Saturday,20,Arabiata Spicy Pasta,Pasta & Momos,3,249.0,747.0,UPI
+ORD-1298,2026-09-26,20:49,Saturday,20,Pizza In A Jar (Veg),Pizzas,1,179.0,179.0,UPI
+ORD-1298,2026-09-26,20:49,Saturday,20,Alfredo Penne Pasta,Pasta & Momos,1,249.0,249.0,UPI
+ORD-1299,2026-09-26,20:28,Saturday,20,Classic Salted Fries,Fries in a Jar,1,149.0,149.0,UPI
+ORD-1299,2026-09-26,20:28,Saturday,20,Crunchy Chicken Poppers,Garlic Bread & Chicken,1,179.0,179.0,UPI
+ORD-1299,2026-09-26,20:28,Saturday,20,Chicken N Cheese Garlic Bread,Garlic Bread & Chicken,1,199.0,199.0,UPI
+ORD-1299,2026-09-26,20:28,Saturday,20,Super Veggie Burger,Sliders & Burgers,1,169.0,169.0,UPI
+ORD-1299,2026-09-26,20:28,Saturday,20,Hot Chocolate Brownie Waffle,Waffles & Shakes,3,219.0,657.0,UPI
+ORD-1300,2026-09-26,20:15,Saturday,20,Fresh Vegetable Momos (8 Pcs),Pasta & Momos,1,199.0,199.0,UPI
+ORD-1300,2026-09-26,20:15,Saturday,20,Pizza Pockets (4 Pcs),Garlic Bread & Chicken,1,149.0,149.0,UPI
+ORD-1300,2026-09-26,20:15,Saturday,20,Pink Sauce Penne Pasta,Pasta & Momos,1,249.0,249.0,UPI
+ORD-1301,2026-09-26,20:51,Saturday,20,Pizza In A Jar (Non-Veg),Pizzas,1,189.0,189.0,UPI
+ORD-1301,2026-09-26,20:51,Saturday,20,Juicy Lucy Sandwich,Wraps & Sandwiches,1,219.0,219.0,UPI
+ORD-1302,2026-09-26,16:17,Saturday,16,Double Xero 2-in-1 Premium Shakes,Waffles & Shakes,1,309.0,309.0,Debit Card
+ORD-1302,2026-09-26,16:17,Saturday,16,Crunchy Chicken Poppers,Garlic Bread & Chicken,1,179.0,179.0,Debit Card
+ORD-1302,2026-09-26,16:17,Saturday,16,Paneer Popcorn Makhni Fries,Fries in a Jar,1,209.0,209.0,Debit Card
+ORD-1303,2026-09-26,16:41,Saturday,16,Veggie Affair Pizza,Pizzas,1,239.0,239.0,UPI
+ORD-1303,2026-09-26,16:41,Saturday,16,Cheese Garlic Bread (4 Pcs),Garlic Bread & Chicken,1,159.0,159.0,UPI
+ORD-1303,2026-09-26,16:41,Saturday,16,Crunchy Chicken Poppers,Garlic Bread & Chicken,1,179.0,179.0,UPI
+ORD-1303,2026-09-26,16:41,Saturday,16,Hot & Spicy Chicken Wings (4 Pcs),Garlic Bread & Chicken,1,189.0,189.0,UPI
+ORD-1304,2026-09-26,18:28,Saturday,18,Hot & Spicy Chicken Wings (4 Pcs),Garlic Bread & Chicken,1,189.0,189.0,UPI
+ORD-1304,2026-09-26,18:28,Saturday,18,Animal Crispy Chicken Slider,Sliders & Burgers,2,259.0,518.0,UPI
+ORD-1304,2026-09-26,18:28,Saturday,18,Chicken N Cheese Garlic Bread,Garlic Bread & Chicken,1,199.0,199.0,UPI
+ORD-1305,2026-09-26,18:37,Saturday,18,Cheese Garlic Bread (4 Pcs),Garlic Bread & Chicken,2,159.0,318.0,UPI
+ORD-1305,2026-09-26,18:37,Saturday,18,Chicken Seekh Wrap,Wraps & Sandwiches,1,219.0,219.0,UPI
+ORD-1306,2026-09-26,12:34,Saturday,12,Hot & Spicy Chicken Wings (4 Pcs),Garlic Bread & Chicken,1,189.0,189.0,UPI
+ORD-1306,2026-09-26,12:34,Saturday,12,Chicken Seekh Wrap,Wraps & Sandwiches,1,219.0,219.0,UPI
+ORD-1306,2026-09-26,12:34,Saturday,12,Chicken Zinger Burger,Sliders & Burgers,1,209.0,209.0,UPI
+ORD-1307,2026-09-27,20:50,Sunday,20,Chicken & Cheese Fries,Fries in a Jar,1,219.0,219.0,UPI
+ORD-1307,2026-09-27,20:50,Sunday,20,Butter Chicken Cheesy Fries,Fries in a Jar,1,229.0,229.0,UPI
+ORD-1307,2026-09-27,20:50,Sunday,20,Hot & Spicy Chicken Wings (4 Pcs),Garlic Bread & Chicken,2,189.0,378.0,UPI
+ORD-1308,2026-09-27,18:00,Sunday,18,Hot Chocolate Brownie Waffle,Waffles & Shakes,2,219.0,438.0,Debit Card
+ORD-1308,2026-09-27,18:00,Sunday,18,Double Xero 2-in-1 Premium Shakes,Waffles & Shakes,1,309.0,309.0,Debit Card
+ORD-1309,2026-09-27,21:56,Sunday,21,Veggie Affair Pizza,Pizzas,1,239.0,239.0,UPI
+ORD-1309,2026-09-27,21:56,Sunday,21,Avengers Aloo Patty Slider,Sliders & Burgers,1,239.0,239.0,UPI
+ORD-1309,2026-09-27,21:56,Sunday,21,Double Xero 2-in-1 Premium Shakes,Waffles & Shakes,1,309.0,309.0,UPI
+ORD-1310,2026-09-27,20:14,Sunday,20,Butter Chicken Cheesy Fries,Fries in a Jar,1,229.0,229.0,UPI
+ORD-1311,2026-09-27,12:37,Sunday,12,Peri Peri Cheesy Fries,Fries in a Jar,1,199.0,199.0,UPI
+ORD-1311,2026-09-27,12:37,Sunday,12,Corn N Cheese Momos (8 Pcs),Pasta & Momos,3,199.0,597.0,UPI
+ORD-1312,2026-09-27,18:08,Sunday,18,Butter Chicken Cheesy Fries,Fries in a Jar,1,229.0,229.0,UPI
+ORD-1312,2026-09-27,18:08,Sunday,18,Crispy Chicken Strips (6 Pcs),Garlic Bread & Chicken,1,139.0,139.0,UPI
+ORD-1313,2026-09-27,17:24,Sunday,17,Paneer Popcorn Makhni Fries,Fries in a Jar,1,209.0,209.0,Credit Card
+ORD-1313,2026-09-27,17:24,Sunday,17,Hot Chocolate Brownie Waffle,Waffles & Shakes,1,219.0,219.0,Credit Card
+ORD-1313,2026-09-27,17:24,Sunday,17,Cheesy Margherita Pizza,Pizzas,1,219.0,219.0,Credit Card
+ORD-1314,2026-09-27,18:46,Sunday,18,Double Xero 2-in-1 Premium Shakes,Waffles & Shakes,1,309.0,309.0,UPI
+ORD-1314,2026-09-27,18:46,Sunday,18,Pink Sauce Penne Pasta,Pasta & Momos,2,249.0,498.0,UPI
+ORD-1314,2026-09-27,18:46,Sunday,18,Paneer Kebab Wrap,Wraps & Sandwiches,1,179.0,179.0,UPI
+ORD-1315,2026-09-27,13:46,Sunday,13,Chicken Zinger Burger,Sliders & Burgers,1,209.0,209.0,UPI
+ORD-1315,2026-09-27,13:46,Sunday,13,Paneer Popcorn Makhni Fries,Fries in a Jar,1,209.0,209.0,UPI
+ORD-1315,2026-09-27,13:46,Sunday,13,Super Veggie Burger,Sliders & Burgers,1,169.0,169.0,UPI
+ORD-1316,2026-09-27,19:49,Sunday,19,Crispy Onion Rings (8 Pcs),Garlic Bread & Chicken,2,139.0,278.0,Debit Card
+ORD-1317,2026-09-27,14:38,Sunday,14,Super Veggie Burger,Sliders & Burgers,2,169.0,338.0,UPI
+ORD-1317,2026-09-27,14:38,Sunday,14,Pizza Fries,Fries in a Jar,2,179.0,358.0,UPI
+ORD-1318,2026-09-27,18:07,Sunday,18,Chicken & Cheese Fries,Fries in a Jar,1,219.0,219.0,UPI
+ORD-1318,2026-09-27,18:07,Sunday,18,Double Xero 2-in-1 Classic Shakes,Waffles & Shakes,1,269.0,269.0,UPI
+ORD-1318,2026-09-27,18:07,Sunday,18,Peri Peri Cheesy Fries,Fries in a Jar,1,199.0,199.0,UPI
+ORD-1319,2026-09-27,20:26,Sunday,20,Hot & Spicy Chicken Wings (4 Pcs),Garlic Bread & Chicken,2,189.0,378.0,UPI
+ORD-1319,2026-09-27,20:26,Sunday,20,Nutella Oreo Waffle Jar,Waffles & Shakes,1,229.0,229.0,UPI
+ORD-1320,2026-09-27,15:02,Sunday,15,Avengers Aloo Patty Slider,Sliders & Burgers,1,239.0,239.0,Cash
+ORD-1320,2026-09-27,15:02,Sunday,15,Super Veggie Burger,Sliders & Burgers,1,169.0,169.0,Cash
+ORD-1320,2026-09-27,15:02,Sunday,15,Corn N Cheese Momos (8 Pcs),Pasta & Momos,1,199.0,199.0,Cash
+ORD-1321,2026-09-27,19:34,Sunday,19,Chicken Zinger Burger,Sliders & Burgers,1,209.0,209.0,Credit Card
+ORD-1321,2026-09-27,19:34,Sunday,19,Chicken Tikka Sandwich,Wraps & Sandwiches,1,209.0,209.0,Credit Card
+ORD-1322,2026-09-28,19:25,Monday,19,Corn N Cheese Momos (8 Pcs),Pasta & Momos,2,199.0,398.0,Credit Card
+ORD-1322,2026-09-28,19:25,Monday,19,Chicken Zinger Burger,Sliders & Burgers,2,209.0,418.0,Credit Card
+ORD-1323,2026-09-28,14:15,Monday,14,Paneer Kebab Wrap,Wraps & Sandwiches,1,179.0,179.0,UPI
+ORD-1324,2026-09-28,16:47,Monday,16,Peri Peri Cheesy Fries,Fries in a Jar,1,199.0,199.0,Credit Card
+ORD-1324,2026-09-28,16:47,Monday,16,Cheesy Margherita Pizza,Pizzas,1,219.0,219.0,Credit Card
+ORD-1325,2026-09-28,17:33,Monday,17,Butter Chicken Pizza,Pizzas,1,299.0,299.0,Credit Card
+ORD-1325,2026-09-28,17:33,Monday,17,Paneer Popcorn Makhni Fries,Fries in a Jar,2,209.0,418.0,Credit Card
+ORD-1325,2026-09-28,17:33,Monday,17,Hot & Spicy Chicken Wings (4 Pcs),Garlic Bread & Chicken,1,189.0,189.0,Credit Card
+ORD-1326,2026-09-28,12:51,Monday,12,Pizza In A Jar (Non-Veg),Pizzas,1,189.0,189.0,UPI
+ORD-1326,2026-09-28,12:51,Monday,12,Classic Choco Fudge Waffle,Waffles & Shakes,1,209.0,209.0,UPI
+ORD-1327,2026-09-28,18:03,Monday,18,Avengers Aloo Patty Slider,Sliders & Burgers,1,239.0,239.0,UPI
+ORD-1327,2026-09-28,18:03,Monday,18,Veggie Affair Pizza,Pizzas,1,239.0,239.0,UPI
+ORD-1327,2026-09-28,18:03,Monday,18,Classic Salted Fries,Fries in a Jar,1,149.0,149.0,UPI
+ORD-1328,2026-09-28,18:02,Monday,18,Pizza Fries,Fries in a Jar,1,179.0,179.0,Cash
+ORD-1329,2026-09-29,21:11,Tuesday,21,Alfredo Penne Pasta,Pasta & Momos,1,249.0,249.0,Cash
+ORD-1329,2026-09-29,21:11,Tuesday,21,Double Xero 2-in-1 Premium Shakes,Waffles & Shakes,1,309.0,309.0,Cash
+ORD-1329,2026-09-29,21:11,Tuesday,21,Chicken N Cheese Garlic Bread,Garlic Bread & Chicken,1,199.0,199.0,Cash
+ORD-1329,2026-09-29,21:11,Tuesday,21,Bahubali Grilled Patty Slider,Sliders & Burgers,1,259.0,259.0,Cash
+ORD-1330,2026-09-29,12:23,Tuesday,12,Pizza Fries,Fries in a Jar,1,179.0,179.0,UPI
+ORD-1330,2026-09-29,12:23,Tuesday,12,Veggie Affair Pizza,Pizzas,1,239.0,239.0,UPI
+ORD-1331,2026-09-29,17:56,Tuesday,17,Crispy Onion Rings (8 Pcs),Garlic Bread & Chicken,1,139.0,139.0,UPI
+ORD-1331,2026-09-29,17:56,Tuesday,17,Chicken Zinger Burger,Sliders & Burgers,1,209.0,209.0,UPI
+ORD-1332,2026-09-29,13:36,Tuesday,13,Pizza In A Jar (Veg),Pizzas,3,179.0,537.0,Credit Card
+ORD-1332,2026-09-29,13:36,Tuesday,13,Harry Potter Veg Slider,Sliders & Burgers,3,219.0,657.0,Credit Card
+ORD-1333,2026-09-29,20:46,Tuesday,20,Veggie Affair Pizza,Pizzas,1,239.0,239.0,Cash
+ORD-1333,2026-09-29,20:46,Tuesday,20,Peri Peri Cheesy Fries,Fries in a Jar,1,199.0,199.0,Cash
+ORD-1333,2026-09-29,20:46,Tuesday,20,Animal Crispy Chicken Slider,Sliders & Burgers,1,259.0,259.0,Cash
+ORD-1334,2026-09-29,21:21,Tuesday,21,Pizza Pockets (4 Pcs),Garlic Bread & Chicken,1,149.0,149.0,UPI
+ORD-1334,2026-09-29,21:21,Tuesday,21,Cheese Garlic Bread (4 Pcs),Garlic Bread & Chicken,1,159.0,159.0,UPI
+ORD-1334,2026-09-29,21:21,Tuesday,21,Classic Salted Fries,Fries in a Jar,1,149.0,149.0,UPI
+ORD-1335,2026-09-29,12:09,Tuesday,12,Pizza Pockets (4 Pcs),Garlic Bread & Chicken,2,149.0,298.0,Credit Card
+ORD-1336,2026-09-30,18:44,Wednesday,18,Chicken N Cheese Garlic Bread,Garlic Bread & Chicken,1,199.0,199.0,Cash
+ORD-1336,2026-09-30,18:44,Wednesday,18,Arabiata Spicy Pasta,Pasta & Momos,1,249.0,249.0,Cash
+ORD-1337,2026-09-30,17:37,Wednesday,17,Nutella Oreo Waffle Jar,Waffles & Shakes,1,229.0,229.0,UPI
+ORD-1337,2026-09-30,17:37,Wednesday,17,Chicken Dominator Pizza,Pizzas,1,279.0,279.0,UPI
+ORD-1338,2026-09-30,20:44,Wednesday,20,Chicken Seekh Wrap,Wraps & Sandwiches,2,219.0,438.0,Cash
+ORD-1338,2026-09-30,20:44,Wednesday,20,Chicken Dominator Pizza,Pizzas,1,279.0,279.0,Cash
+ORD-1339,2026-09-30,20:06,Wednesday,20,Chicken Seekh Wrap,Wraps & Sandwiches,1,219.0,219.0,UPI
+ORD-1339,2026-09-30,20:06,Wednesday,20,Animal Crispy Chicken Slider,Sliders & Burgers,2,259.0,518.0,UPI
+ORD-1340,2026-09-30,14:19,Wednesday,14,Butter Chicken Cheesy Fries,Fries in a Jar,1,229.0,229.0,UPI
+ORD-1340,2026-09-30,14:19,Wednesday,14,Chicken N Cheese Garlic Bread,Garlic Bread & Chicken,1,199.0,199.0,UPI
+ORD-1340,2026-09-30,14:19,Wednesday,14,Super Veggie Burger,Sliders & Burgers,1,169.0,169.0,UPI
+ORD-1341,2026-09-30,20:09,Wednesday,20,Harry Potter Veg Slider,Sliders & Burgers,1,219.0,219.0,UPI
+ORD-1341,2026-09-30,20:09,Wednesday,20,Chicken Tikka Sandwich,Wraps & Sandwiches,1,209.0,209.0,UPI
+ORD-1342,2026-09-30,22:01,Wednesday,22,Alfredo Penne Pasta,Pasta & Momos,2,249.0,498.0,Debit Card
+ORD-1342,2026-09-30,22:01,Wednesday,22,Butter Chicken Cheesy Fries,Fries in a Jar,1,229.0,229.0,Debit Card
+ORD-1342,2026-09-30,22:01,Wednesday,22,Classic Salted Fries,Fries in a Jar,1,149.0,149.0,Debit Card
